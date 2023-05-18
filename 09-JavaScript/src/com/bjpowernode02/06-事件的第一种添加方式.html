@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>06-事件的第一种添加方式</title>
+        <script>
+            function _focus() {
+                // 获取span标签
+                var userspan = document.getElementById("userspan");
+                userspan.innerHTML = "注册完成后，可以使用当前手机登录或找回密码".fontsize(2).fontcolor("green");
+            }
+            function _blur() {
+                // 给用户提示信息
+                var user = document.getElementById("user");
+                var value = user.value;
+                // 判断格式是否正确
+                if(value.length == 11) {
+                    document.getElementById("userspan").innerHTML = "格式正确".fontsize(2).fontcolor("green");
+                }else{
+                    document.getElementById("userspan").innerHTML = "格式错误".fontsize(2).fontcolor("red");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <!--
+            onblur 在对象失去输入焦点时触发。
+            onfocus 当对象获得焦点时触发。
+        -->
+        请输入手机号：<input type="text" id="user" class="user1" onfocus="_focus()" onblur="_blur()" >
+        <span id="userspan"></span>
+    </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>18-数组的定义和使用</title>
+    <script>
+        /*
+            数组：表示内存中一片连续的存储空间，是用于保存多个数据的容器。
+            数组的定义格式：var arrayName = [值,值,值...];
+            数组的使用格式：arrayName[index]
+            java中数组和js中数组的区别: 数组等效集合
+                1.java中的数组具有定长性，js中的数据长度可变。
+                2.java中的数组只能保存一种类型的数据，js中的数据可以保存任意类型数据。
+        */
+        var arr = [123, 3.14, "abc", true, {}];
+        document.write(arr + "<br />");
+        arr[0] = 100;
+        document.write(arr + "<br />");
+        var v = arr[2];
+        document.write(v + "<br />");
+        arr[10] = "hello";
+        document.write(arr + "<br />");
+        // 遍历数组
+        for(let i = 0; i < arr.length; i++) {
+            if( i == arr.length - 1) {
+                document.write(arr[i] + "<br />");
+            } else {
+                document.write(arr[i] + " , ");
+            }
+        }
+
+        /*
+            For...In 声明用于遍历数组或者对象的属性（对数组或者对象的属性进行循环操作）。
+            语法：
+            for (变量 in 对象) {
+                在此执行代码
+            }
+            特别注意：变量不是数组中的数据，而是提供的下标
+         */
+        for(index in arr) {
+            document.write(arr[index] + " , ")
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

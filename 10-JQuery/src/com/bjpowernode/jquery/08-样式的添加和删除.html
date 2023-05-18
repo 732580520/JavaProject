@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>08-样式的添加和删除</title>
+        <style>
+            .div1 {
+                width: 200px;
+                height: 200px;
+                background-color: aquamarine;
+            }
+            .c1 {
+                font-size: 36px;
+            }
+            .c2 {
+                font-family: "华文彩云";
+            }
+        </style>
+        <script src="js/jquery-3.7.0.js"></script>
+        <script>
+            $(function () {
+                // 获取按钮对象
+                var $buttons = $("button");
+                $buttons.eq(0).click(function () {
+                    // 获取标签对象
+                    var $box = $("#box");
+                    // 添加样式
+                    /*$box.addClass("c1");
+                    $box.addClass("c2");*/
+                    $box.addClass("c1 c2");
+                });
+                $buttons.eq(1).click(function () {
+                    // 获取标签对象
+                    var $box = $("#box");
+                    $box.removeClass("c1 c2");
+                });
+                $buttons.eq(2).click(function () {
+                    // 获取标签对象
+                    var $box = $("#box");
+                    $box.toggleClass("c1 c2")
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="box" class="div1">盒子</div>
+        <button>设置样式</button>
+        <button>删除样式</button>
+        <button>替换样式</button>
+    </body>
+</html>

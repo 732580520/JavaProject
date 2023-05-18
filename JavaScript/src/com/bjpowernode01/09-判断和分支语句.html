@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>09-判断和分支语句</title>
+        <script>
+            /*
+                判断语句：if    if-else    if else if
+                单条件判断
+                if(判断条件){
+                    条件成立后执行的代码;
+                }
+
+                互斥条件判断
+                if(判断条件){
+                    条件成立后执行的代码;
+                }else{
+                    条件不成立执行的代码;
+                }
+
+                多条件判断
+                if(判断条件1){
+                    条件1成立后执行的代码;
+                }else if(判断条件2){
+                    条件2成立后执行的代码;
+                }else if(判断条件3){
+                    条件3成立后执行的代码;
+                }else{
+                    所有条件不成立执行的代码;
+                }
+
+                分支语句：switch
+                switch(常量) {
+                    case 常量1:
+                        js代码
+                    break;
+                    case 常量2:
+                        js代码
+                    break;
+                    case 常量:
+                        js代码
+                    break;
+                    default:
+                        所有常量都不匹配执行的代码;
+                }
+            */
+            var num = 10;
+            if( num % 2 == 0 ) {
+                alert( num + "是偶数");
+            }else{
+                alert( num + "是奇数");
+            }
+
+            if(num  % 2) {
+                alert( num + "是奇数");
+            }else {
+                alert( num + "是偶数");
+            }
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>

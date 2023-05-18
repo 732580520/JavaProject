@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>21-Array对象</title>
+    <script>
+        /*
+            数组对象的作用是：使用单独的变量名来存储一系列的值。
+            concat() 方法用于连接两个或多个数组。
+            toString() 把数组转换为字符串，并返回结果。
+            join() 把数组的所有元素放入一个字符串。元素通过指定的分隔符进行分隔。
+            pop() 删除并返回数组的最后一个元素
+            shift() 删除并返回数组的第一个元素
+            splice() 删除元素，并向数组添加新元素。
+            slice() 从某个已有的数组返回选定的元素。
+            sort() 对数组的元素进行排序
+            reverse() 颠倒数组中元素的顺序。
+        */
+        let arr1 = [1, 2, 3, 4];
+        let arr2 = ["a", "b", "c", "d"];
+        // 连接数组 concat() 方法用于连接两个或多个数组。
+        var arr3 = arr1.concat(arr2, 3.14, 3.15, 3.16);
+        document.write(arr3 + "<br />");
+        // toString() 把数组转换为字符串，并返回结果。
+        var toString = arr1.toString();
+        document.write(toString + "<br />");
+        // join() 把数组的所有元素放入一个字符串。元素通过指定的分隔符进行分隔。
+        var join = arr1.join("==");
+        document.write(join + "<br />");
+
+        /*
+            pop() 删除并返回数组的最后一个元素
+            shift() 删除并返回数组的第一个元素
+        */
+        var shift = arr3.shift();
+        var pop = arr3.pop();
+        document.write(shift + "....." + pop + "<br />");
+        document.write(arr3 + "<br />");
+
+        // splice() 删除元素
+        var deleteValue = arr3.splice(2,2);
+        document.write(arr3 + "<br />");
+        document.write(deleteValue + "<br />");
+
+        // splice() 向数组添加新元素。
+        arr1.splice(3, -1, 5, 6, 7, 8, 9);
+        document.write(arr1 + "<br />");
+
+        // splice() 修改元素。
+        arr2.splice(1, 1, "B");
+        document.write(arr2 + "<br />");
+
+        // slice() 从某个已有的数组返回选定的元素。
+        var slice = arr1.slice(3,6);
+        document.write(slice + "<br />");
+
+        // sort() 对数组的元素进行排序
+        let arr = [3, 5, 6, 1, 2, 4, 7, 9, 8];
+        document.write(arr + "<br />");
+        arr.sort();
+        document.write(arr + "<br />");
+        // reverse() 颠倒数组中元素的顺序。
+        /*arr.reverse();
+        document.write(arr + "<br />");*/
+
+        //提供一个用于比较的函数
+        function sortNumber(o1,o2) {
+            return o2 - o1;
+        }
+        arr.sort( sortNumber );// 传递的是函数本身，而不是函数的运行结果
+        document.write(arr + "<br />");
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

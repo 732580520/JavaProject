@@ -1,5 +1,4 @@
 package com.bjpowernode.fanShe;
-
 public class MyJunit {
     @MyTest
     public void show1() {

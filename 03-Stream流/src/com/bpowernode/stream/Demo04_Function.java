@@ -5,7 +5,7 @@ import java.util.function.Function;
 /*
     java.util.function.Function<T,R>:转化型接口，表示接受一个参数并产生结果的函数。
     抽象方法
-        R apply(T t) 将此函数应用于给定的参数。
+        R apply​(T t) 将此函数应用于给定的参数。
  */
 public class Demo04_Function {
     public static void main(String[] args) {

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>07-事件的第二种添加方式</title>
+        <script>
+            /*
+                动态添加:前提：页面要加载完成 ， 1.先获取标签对象  2.给标签对象添加事件
+            */
+            window.onload = function () {
+                //1.获取按钮对象
+                var button = document.getElementById("btn");
+                //2.给btn添加事件
+                button.onclick = function () {
+                    // 3.获取密码框
+                    var pwd = document.getElementById("pwd");
+                    if(pwd.type == "password") {
+                        pwd.type = "text";
+                        button.value = "隐藏密码";
+                    }else {
+                        pwd.type = "password";
+                        button.value = "显示密码";
+                    }
+                };
+            }
+        </script>
+    </head>
+    <body>
+        密码：<input type="password" id="pwd" /> <input type="button" value="显示密码" id="btn">
+    </body>
+</html>

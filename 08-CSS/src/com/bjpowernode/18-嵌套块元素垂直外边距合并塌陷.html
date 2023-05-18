@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>18-嵌套块元素垂直外边距合并塌陷</title>
+        <style>
+            .outer {
+                width: 600px;
+                height: 600px;
+                background-color: fuchsia;
+                /*border: 1px saddlebrown solid;*/
+                overflow: hidden;
+            }
+            .inner {
+                width: 200px;
+                height: 200px;
+                background-color: orange;
+                margin-left: 200px;
+                margin-top: 200px;
+                overflow: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="outer">
+            <div class="inner">
+                我是盒子我是盒子我是盒子我是盒子我是盒子我是盒子我是盒子我是盒子我是盒子
+                我是盒子我是盒子我是盒子我是盒子我是盒子我是盒子我是盒子我是盒子我是盒子
+                我是盒子我是盒子我是盒子我是盒子我是盒子我是盒子我是盒子我是盒子我是盒子
+                我是盒子我是盒子我是盒子我是盒子我是盒子我是盒子我是盒子我是盒子我是盒子
+                我是盒子我是盒子我是盒子我是盒子我是盒子我是盒子我是盒子我是盒子我是盒子
+                我是盒子我是盒子我是盒子我是盒子我是盒子我是盒子我是盒子我是盒子我是盒子
+                我是盒子我是盒子我是盒子我是盒子我是盒子我是盒子我是盒子我是盒子我是盒子
+            </div>
+        </div>
+    </body>
+</html>

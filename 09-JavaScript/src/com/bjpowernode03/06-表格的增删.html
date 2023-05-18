@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>表格的增删</title>
+        <script type="text/javascript">
+            // 在页面加载完成后，给提交按钮绑定单击事件
+            window.onload = function () {
+                // 获取提交按钮，添加点击事件
+                document.getElementById("addUser").onclick = function () {
+                    // 获取用户录入的信息
+                    var name = document.getElementById("name").value;
+                    var tel = document.getElementById("tel").value;
+                    var addr = document.getElementById("addr").value;
+
+                    // alert(name + tel + addr);
+                    // 创建行 保存用户提交的数据
+                    var tr = document.createElement("tr");
+
+                    // 创建name的列
+                    var name_td = document.createElement("td");
+                    // 给列中添加数据
+                    name_td.innerText = name;
+                    // 添加到他人中
+                    tr.appendChild(name_td);
+
+                    // 创建tel的列
+                    var tel_td = document.createElement("td");
+                    // 添加数据
+                    tel_td.innerText = tel;
+                    // 添加到行中
+                    tr.appendChild(tel_td);
+
+                    // 创建addr的列
+                    var addr_td = document.createElement("td");
+                    // 添加数据
+                    addr_td.innerText = addr;
+                    // 添加到行中
+                    tr.appendChild(addr_td);
+
+                    // 创建删除的列
+                    var remove_td = document.createElement("td");
+                    // 创建超链接
+                    var a = document.createElement("a");
+                    a.setAttribute("href","#");
+                    a.innerText = "删除";
+                    // 将超链接添加到列中
+                    remove_td.appendChild(a);
+                    // 添加到行中
+                    tr.appendChild(remove_td);
+                    // a标签添加点击事件
+                    a.onclick = function() {
+                        a.parentNode.parentNode.remove();
+                    };
+                    // 将tr保存到table中
+                    document.getElementById("usertable").appendChild(tr);
+                };
+            }
+        </script>
+    </head>
+    <body>
+        <center>
+            <br><br>
+            添加用户:<br><br>
+            姓名: <input type="text" name="name" id="name" />&nbsp;&nbsp;
+            电话: <input type="text" name="tel" id="tel" />&nbsp;&nbsp;
+            住址: <input type="text" name="addr" id="addr" /><br><br>
+
+            <button id="addUser">提交</button>
+
+            <br><br>
+            <hr>
+            <br><br>
+
+            <table id="usertable" border="1" cellpadding="5" cellspacing="0">
+                <tr>
+                    <th>姓名</th>
+                    <th>电话</th>
+                    <th>住址</th>
+                    <th>操作</th>
+                </tr>
+                <tr>
+                    <td>张三</td>
+                    <td>110</td>
+                    <td>上海</td>
+                    <td><a href="#">删除</a></td>
+                </tr>
+            </table>
+
+        </center>
+    </body>
+</html>

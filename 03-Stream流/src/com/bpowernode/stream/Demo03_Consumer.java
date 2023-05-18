@@ -5,7 +5,7 @@ import java.util.function.Consumer;
 /*
     java.util.function.Consumer<T>:消费型接口。表示接受单个输入参数并且不返回结果的操作。
     抽象方法
-        void accept(T t) 对给定的参数执行此操作。
+        void accept​(T t) 对给定的参数执行此操作。
  */
 public class Demo03_Consumer {
     public static void main(String[] args) {

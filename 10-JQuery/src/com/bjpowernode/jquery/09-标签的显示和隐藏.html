@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>09-标签的显示和隐藏</title>
+        <script src="js/jquery-3.7.0.js"></script>
+        <script>
+            $(function () {
+                // 获取按钮对象
+                var $button = $("button");
+                $button.eq(0).click(function () {
+                    // 获取div标签对象
+                    var $box = $("#box");
+                    //$box.hide(600);
+                    //$box.fadeOut(600);
+                    $box.slideUp(600,function () { // 函数的回调
+                        alert("窗帘被拉上去了。。。");
+                    });
+                });
+                $button.eq(1).click(function () {
+                    // 获取div标签对象
+                    var $box = $("#box");
+                    //$box.show(600);
+                    //$box.fadeIn(600);
+                    $box.slideDown(600,function () {
+                        alert("窗帘被拉下来了。。。");
+                    });
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="box" style="width: 200px;height: 200px;background-color: aquamarine">
+            盒子
+        </div>
+        <button>隐藏标签</button>
+        <button>显示标签</button>
+    </body>
+</html>

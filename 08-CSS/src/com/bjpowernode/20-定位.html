@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>20-定位</title>
+        <style>
+            /*
+                定位指定是将元素定位到页面的某一个位置，达到页面布局的效果。元素的定位属性主要包括定位模式和边移量两部分。
+                position定位模式:当前元素定位的参照物，以及文档流的状态
+                    relative 相对定位，相对于其原文档流的位置进行定位。
+                            相对定位，参照物是自身原有的位置，虽然自身发生了偏移，但是自身原有的位置并没有被释放。
+
+                    absolute 绝对定位，相对于其上一个已经定位的父元素进行定位
+                        1.	当一个元素使用绝对定位的时候，会自动查找已经定位的父元素，使用定位的父元素的位置作为参照物。
+                        2.	如果父元素都没有定位，则使用窗口（body）进行定位。
+                        3.	失去位置，脱离标准流
+                    fixed	 固定定位，相对于浏览器窗口进行定位
+
+                边移量
+                    通过边移量属性设置元素top/bottom/left/right的移动，来精确定位元素的位置。
+                    top	   顶端偏移量，定义元素相对于其父元素上边线的距离
+                    bottom 底部偏移量，定义元素相对于其父元素下边线的距离
+                    left   左侧偏移量，定义元素相对于其父元素左边线的距离
+                    right  右侧偏移量，定义元素相对于其父元素右边线的距离
+                    也就说，以后定位要和这边偏移搭配使用了， 比如 top: 100px; left: 30px; 等等
+            */
+            .outer {
+                width: 600px;
+                height: 600px;
+                border: black 1px solid;
+                margin-left: 35%;
+                position: absolute;
+            }
+            .box1 {
+                width: 150px;
+                height: 150px;
+                background-color: blue;
+            }
+            .box2 {
+                width: 150px;
+                height: 150px;
+                background-color: red;
+                position: absolute; /*设置定位模式*/
+                top: 100px;
+                left: 50px;
+            }
+            .box3 {
+                width: 150px;
+                height: 150px;
+                background-color: green;
+            }
+            img {
+                position: fixed;
+                right: 50px;
+                bottom: 50px;
+            }
+        </style>
+    </head>
+    <body id="_top">
+    <div class="outer">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+    </div>
+    <a href="#_top"><img src="top.png" alt=""></a>
+    演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本演示文本
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </body>
+</html>

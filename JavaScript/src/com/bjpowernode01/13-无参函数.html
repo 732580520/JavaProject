@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>13-无参函数</title>
+        <script>
+            /*
+                函数：也叫方法，是一段独立封装的代码，同过方法名调用，提高代码复用性。
+                function functionName(参数) {
+                    js代码;
+                    return 结果;
+                }
+            */
+            function demo() {
+                alert("Hello Funcion....");
+                return "abc";
+            }
+            // 调用 运行函数，返回函数的运行结果
+            var demoValue = demo();
+            alert("demoValue = " + demoValue);
+
+            // 调用 将函数本身赋值给另外一个变量
+            var demo1 = demo;
+            alert("demo1 = " + demo1);
+            demo();
+            demo1();
+
+            // 在js中，函数没有重载的概念，当函数名相同时，后面的函数会覆盖签名的函数
+            function demo() {
+                alert("我是后面定义的demo函数....");
+            }
+
+
+
+
+
+
+
+
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>

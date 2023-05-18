@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>19-数组的第二种定义格式</title>
+    <script>
+        /*
+            var arrayName = new Array(实参);
+        */
+        var arr1 = new Array(1, 2, 3, 4, 5, 6);
+        // alert(arr1.length);
+
+        // 当定义数组只有一个数值类型时，会当做数组的长度处理
+        var arr2 = new Array(10);
+        // alert(arr2.length);
+
+        // 长度不能是小数
+        /*var arr3 = new Array(3.14);
+        alert(arr3.length);*/
+
+        var arr4 = new Array("10");
+        alert(arr4.length);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

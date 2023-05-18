@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>表格隔行变色和高亮</title>
+        <style type="text/css">
+            table{
+                border: 1px red solid;
+                width: 500px;
+                margin: auto;
+            }
+            td{
+                border:1px blue solid;
+                margin: 10px;
+                padding: 10px;
+                text-align: center;
+            }
+            th{
+                background-color: azure;
+            }
+            .one{
+                background-color: aquamarine;
+            }
+            .two{
+                background-color: ghostwhite;
+            }
+            .over{
+                background-color: yellow;
+            }
+        </style>
+        <script type="text/javascript">
+            // 文档加载
+            window.onload = function () {
+                // 获取所有的tr
+                var trs = document.getElementsByTagName("tr");
+                // var rows = document.getElementsByTagName("table")[0].rows;
+                // 遍历行
+                for(let i = 1; i < trs.length; i++) {
+                    if(i % 2) {
+                        trs[i].className = "one";
+                    }else {
+                        trs[i].className = "two";
+                    }
+
+                    // 设置高亮  onmouseenter 当用户将鼠标指针移动到对象内时触发。  onmouseout 当用户将鼠标指针移出对象边界时触发。
+                    trs[i].onmouseenter = function () {
+                        this.className = "over";
+                    };
+                    trs[i].onmouseout = function () {
+                        if(i % 2) {
+                            trs[i].className = "one";
+                        }else {
+                            trs[i].className = "two";
+                        }
+                    };
+                }
+            };
+        </script>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>姓名</th>
+                <th>年龄</th>
+                <th>地址</th>
+            </tr>
+            <tr>
+                <td>高杰</td>
+                <td>18</td>
+                <td>闵行</td>
+            </tr>
+            <tr>
+                <td>李刚</td>
+                <td>16</td>
+                <td>上海</td>
+            </tr>
+            <tr>
+                <td>赵士龙</td>
+                <td>22</td>
+                <td>东莞</td>
+            </tr>
+            <tr>
+                <td>鲁宾</td>
+                <td>29</td>
+                <td>北京</td>
+            </tr>
+            <tr>
+                <td>刘鹏</td>
+                <td>13</td>
+                <td>幼儿园</td>
+            </tr>
+            <tr>
+                <td>刘鹏</td>
+                <td>13</td>
+                <td>幼儿园</td>
+            </tr>
+            <tr>
+                <td>刘鹏</td>
+                <td>13</td>
+                <td>幼儿园</td>
+            </tr>
+            <tr>
+                <td>刘鹏</td>
+                <td>13</td>
+                <td>幼儿园</td>
+            </tr>
+            <tr>
+                <td>刘鹏</td>
+                <td>13</td>
+                <td>幼儿园</td>
+            </tr>
+            <tr>
+                <td>刘鹏</td>
+                <td>13</td>
+                <td>幼儿园</td>
+            </tr>
+            <tr>
+                <td>刘鹏</td>
+                <td>13</td>
+                <td>幼儿园</td>
+            </tr>
+        </table>
+
+    </body>
+</html>

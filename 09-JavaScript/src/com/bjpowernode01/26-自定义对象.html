@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>26-自定义对象</title>
+    <script>
+        /*
+            自定义对象语法格式：在js中函数就是对象，对象就是函数。一般作为类使用时，首字母大写。
+            function ClassName() {}
+            1.js对象可以定义自己特有的属性
+            1.js对象可以定义自己特有的方法
+        */
+        function Studnet() {}
+        // 创建类对象
+        let s1 = new Studnet();
+        s1.name = "张三";
+        s1.age = 18;
+        document.write(s1.name + "...." + s1.age + "<br />");
+        s1.sleep = function() {
+            document.write(s1.name + "在睡觉....<br />");
+        };
+        s1.sleep();
+
+        let s2 = new Studnet();
+        s2.addr = "上海";
+        s2.sex = "男";
+        document.write(s2.addr + "...." + s2.sex + "<br />");
+        s2.sleep();
+    </script>
+</head>
+<body>
+
+</body>
+</html>

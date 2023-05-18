@@ -1,0 +1,42 @@
+<!--
+    行内样式：<标签名 style="样式表">  <标签名 style="属性名: 属性值;属性名: 属性值">.
+        只能作用于当前定义style属性的某一个标签。 某一个页面中，只有少量的样式时，使用它。优先级高
+    内部样式:只能作用于当前页面
+    外部样式：将样式定义在.css扩展名的文件中，然后通过link标签，在页面中引入
+        <link rel="stylesheet" href="css/mycss.css">
+    内部样式、外部样式语法：
+        选择器 {
+            属性名: 属性值;
+            属性名: 属性值;
+            属性名: 属性值;
+            ....
+        }
+    样式优先级： 行内样式 > 内部样式 = 外部样式
+    选择器:选择需要操作样式的标签对象。 标签名选择器   类选择器    id选择器   通配选择器
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>02-CSS的3种格式</title>
+        <!--引入外部样式-->
+        <link rel="stylesheet" href="css/mycss.css">
+
+        <!--内部样式-->
+        <style>
+            /*表示选择了当前页面中的所有的p标签*/
+            p {
+                color: deeppink;
+                font-size: 72px;
+            }
+        </style>
+    </head>
+    <body>
+        <span style="color: blue;font-size: 32px">我是演示文本</span>
+        <br >
+        <p style="color: blueviolet">这是段落1</p>
+        <p>这是段落2</p>
+        <p>这是段落3</p>
+        <p>这是段落4</p>
+    </body>
+</html>

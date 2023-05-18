@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>07-标签分类</title>
+        <style>
+            /*
+                基于语法标签分为单标签和双标签。
+                基于标签的特点又分为：块级标签    行级标签    行内块标签
+                块级标签：会独占页面的一整行，每次都是从新的一行开始，可以设置高度，宽度等相关的属性，默认的宽度是所在容器的宽度。 div  p  h1-h6
+                行级标签：不会独自占用页面的一整行，相邻的行级标签是在同一行的相邻位置，直到一行放不下，自动换到下一行,不能设置高宽等相关属性。
+                   宽度靠文本内容的支撑   a  span   b    i
+                行内块标签：属于块级和行级的结合，在同一行的相邻位置，但是可以设置高度和宽度。  img  input
+            */
+            p {
+                width: 400px;
+                height: 200px;
+                background-color: aquamarine;
+            }
+            div {
+                background-color: antiquewhite;
+            }
+            span {
+                width: 400px;
+                height: 200px;
+                background-color: darkorange;
+            }
+            input {
+                height: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>我是盒子</div>
+        <p>我是段落</p>
+        <span>文本容器</span>
+        <a href="">百度一下</a>
+        <input type="text">
+        <input type="text">
+        <input type="text">
+    </body>
+</html>

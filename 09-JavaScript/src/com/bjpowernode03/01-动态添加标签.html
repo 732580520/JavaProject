@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>动态添加标签</title>
+        <script>
+            /*
+                标签、文本的创建都是通过document对象实现。标签的增删改一般都是通过方法实现。
+                createElement 为指定标签创建一个元素的实例。
+                createTextNode 从指定值中创建文本字符串。
+                appendChild 给对象追加一个子元素。
+                setAttribute 设置指定标签属性的值。
+            */
+            window.onload = function () {
+                // 创建标签对象  createElement 为指定标签创建一个元素的实例。 oElement = document.createElement(sTag)
+                var a = document.createElement("a");
+
+                // createTextNode 从指定值中创建文本字符串。
+                var text = document.createTextNode("百度一下");
+                a.appendChild(text); // 给标签追加子元素，不会覆盖原有内容
+
+               /* // 给a标签添加文本内容   会将原有的html内容覆盖
+                a.innerHTML = "百度一下";*/
+
+                // 给a标签设置属性
+                a.setAttribute("href", "http://www.baidu.com");
+                // 将a标签添加到body中  appendChild 给对象追加一个子元素。 oElement = object.appendChild(oNode)
+                document.body.appendChild(a);
+            }
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>

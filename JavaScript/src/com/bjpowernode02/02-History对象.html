@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>02-History对象</title>
+        <script>
+            /*
+                History 对象实际上是 JavaScript 对象，而不是 HTML DOM 对象。
+                History 对象是由 JavaScript runtime engine 自动创建的，由一系列的 URL 组成。这些 URL 是用户在一个浏览器窗口内已访问的 URL 。
+                back() 加载 history 列表中的前一个 URL 4 1 9
+                forward() 加载 history 列表中的下一个 URL 4 1 9
+                go() 加载 history 列表中的某个具体页面
+            */
+            function _back() {
+                window.history.go(-1);
+            }
+        </script>
+    </head>
+    <body>
+        <h1 style="color: red">History主页面</h1>
+        <input type="button" value="返回1" onclick="_back()" />
+        <input type="button" value="返回2" onclick="history.back()" />
+    </body>
+</html>

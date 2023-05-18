@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        /*
+            String 对象用于处理已有的字符串。
+            big() 用大号字体显示字符串。
+            small() 使用小字号来显示字符串。
+            bold() 使用粗体显示字符串。
+            fontcolor() 使用指定的颜色来显示字符串。
+            fontsize() 使用指定的尺寸来显示字符串。
+        */
+        let str = "hello world";
+        document.write(str + "<br />");
+        var big = str.big();
+        // alert(big);
+        document.write(big + "<br />");
+        var small = str.small();
+        document.write(small + "<br />");
+        var bold = str.bold();
+        //alert(bold);
+        document.write(bold + "<br />");
+
+        var fontcolor = str.fontcolor("red");
+        //alert(fontcolor);
+        document.write(fontcolor + "<br />");
+        var fontsize = str.fontsize(7);
+        alert(fontsize)
+        document.write(fontsize + "<br />");
+    </script>
+</head>
+<body>
+
+</body>
+</html>

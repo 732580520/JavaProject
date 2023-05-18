@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>12-乘法表</title>
+        <style>
+            td {
+                padding: 5px;
+                margin: 5px;
+                background-color: seashell;
+            }
+        </style>
+        <script>
+            /*
+                嵌套循环打印9*9乘法表
+                1.外层循环控制打印的行数  打印几*几的乘法表
+                2.内层循环控制每行打印的数据
+            */
+            document.write("<table>");
+
+            for(let i = 1; i <= 9; i++) {
+                document.write("<tr>");
+                for(let j = 1; j <= i;j++ ) {
+
+                    document.write("<td>" + j + " * " + i + " = " + i * j + "</td>");
+                }
+                document.write("</tr>");
+            }
+
+            document.write("</table>")
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>

@@ -9,9 +9,9 @@ import java.util.concurrent.locks.ReentrantLock;
         3.提供从容器取出商品的方法
     java.util.concurrent.locks.Condition:专门负责线程的通信。
     成员方法
-        void await() 导致当前线程等待。
-        void signal() 唤醒一个等待线程。
-        void signalAll() 唤醒所有等待线程。
+        void await​() 导致当前线程等待。
+        void signal​() 唤醒一个等待线程。
+        void signalAll​() 唤醒所有等待线程。
 
  */
 public class Resource {

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>11-JS和JQuery对象相互转换</title>
+        <script src="js/jquery-3.7.0.js"></script>
+        <script>
+            $(function () {
+                // 获取标签对象
+                var input = document.getElementsByName("uname")[0];
+                /*var value = input.value;
+                alert(value);*/
+                // 将JS对象转换JQuery对象 $(js对象);
+                $input = $(input);
+                var val = $input.val();
+                alert(val);
+
+                // 将JQuery对象转换为JS对象 语法1） jquery对象[0]    语法2)jquery对象.get(0);
+                var $uname = $("[name=uname]");
+                var uname = $uname.get(0);
+                uname.value = "张无忌";
+            });
+        </script>
+    </head>
+    <body>
+        <input type="text" name="uname" value="张三丰" />
+    </body>
+</html>

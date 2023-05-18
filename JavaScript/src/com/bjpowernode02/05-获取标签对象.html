@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>05-获取标签对象</title>
+        <script>
+            window.onload = function () {
+                /*
+                getElementById 通过id获取标签对象 id要求必须唯一。
+
+            */
+                // 获取单个标签对象
+                var div = document.getElementById("box");
+                // 常用属性 覆盖原有数据
+                // div.innerText = "<h1>hello</h1>";
+                // div.innerText = "<h1>hello</h1>";
+                var htm = div.innerHTML;
+                div.innerHTML = htm + "<h1>hello</h1>";
+
+                // 通过标签名获取标签对象
+                var ps = document.getElementsByTagName("p");
+                // alert(ps.length);
+
+                // 通过name属性获取标签对象
+                var sexs = document.getElementsByName("sex");
+                // alert(sexs.length);
+
+                // 通过class属性获取标签对象
+                var hobbys = document.getElementsByClassName("hobby");
+                // alert(hobbys.length);
+            }
+        </script>
+    </head>
+    <body>
+        <div id="box">我的盒子</div>
+        <input type="radio" name="sex"> 男
+        <input type="radio" name="sex"> 女
+        <br />
+        <input type="checkbox" class="hobby"> 足球
+        <input type="checkbox" class="hobby"> 蓝球
+        <input type="checkbox" class="hobby"> 足球宝贝
+        <input type="checkbox" class="hobby"> 蓝球宝贝
+
+        <p>段落1</p>
+        <p>段落2</p>
+        <p>段落3</p>
+        <p>段落4</p>
+    </body>
+</html>

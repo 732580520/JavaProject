@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>注册页面</title>
+        <script type="text/javascript" >
+            /*
+                1.账号密码的获取焦点事件，获取焦点后提示用户账号和密码的规则
+                2.添加密码的隐藏和显示
+                3.添加全选、返选、全不选
+            */
+            function func() {
+                // 获取文本框 将value设置为""
+                document.getElementById("user").value = "";
+            }
+            // 失去焦点时，验证用户名的格式
+            function checkuser() {
+                // 获取用户录入的数据
+                var value = document.getElementById("user").value;
+                // 判断格式
+                if(value.match("^\\w{4,12}$")) {
+                    document.getElementById("userspan").innerHTML = "格式正确".fontsize(2).fontcolor("green");
+                    return true;
+                }else{
+                    document.getElementById("userspan").innerHTML = "格式错误".fontsize(2).fontcolor("red");
+                    return false;
+                }
+            }
+            // true:提交给后台服务器  false：不允许提交
+            function _validata() {
+                if(checkuser() && checkpwd()) {
+                    return true;
+                }else {
+                    return false;
+                }
+            }
+        </script>
+    </head>
+    <body>
+    <fieldset>
+        <legend>注册页面</legend>
+        <!-- 在form标签中有个默认的事件 -->
+        <form action="http://127.0.0.1:9090" method="post" onsubmit="return _validata();">
+            <table>
+                <tr>
+                    <td>用户名称：<font color="red">*</font></td>
+                    <td>
+                        <input id="user" type="text" name="user" value="请输入用户名" onclick="func()" onblur="checkuser() "/>
+                        <span id="userspan"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>用户密码：</td>
+                    <td>
+                        <input id="pwd" type="password" name="pwd" onblur="checkpwd()"/>
+                        <span id="pwdspan"></span>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>确认密码：</td>
+                    <td>
+                        <input id="repwd" type="password" name="repwd" onblur="checkrepwd()"/> <input type="button" value="显示密码">
+                        <span id="repwdspan"></span>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>选择性别：</td>
+                    <td>
+                        <input type="radio" name="sex" value="nan" onblur="checksex()"/>男
+                        <input type="radio" name="sex" value="nv" onblur="checksex()"/>女
+                        <span id="sexpan"></span>
+                    </td>
+                </tr>
+
+
+
+                <tr>
+                    <td>选择爱好：</td>
+                    <td>
+                        <input type="checkbox" name="hobby" value="C"/>C
+                        <input type="checkbox" name="hobby" value="C++"/>C++
+                        <input type="checkbox" name="hobby" value="Java"/>Java
+                        <input type="checkbox" name="hobby" value="PHP"/>PHP
+                        <input type="checkbox" name="hobby" value=".net"/>.net
+                        <span id="hspan"></span>
+                        <input type="button" value="全选">
+                        <input type="button" value="全不选">
+                        <input type="button" value="反选">
+                    </td>
+                </tr>
+                <tr>
+                    <td>选择国家：</td>
+                    <td>
+                        <select name="country">
+                            <option>---请选择国家----</option>
+                            <option value="CN">中国</option>
+                            <option value="US">美国</option>
+                            <option value="EN">英国</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>自我评价：</td>
+                    <td>
+						<textarea rows="10" cols="40" name="desc">
+						</textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="submit" value="注册"/>
+                    </td>
+                    <td>
+                        <input type="reset" value="重置" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+
+    </body>
+</html>

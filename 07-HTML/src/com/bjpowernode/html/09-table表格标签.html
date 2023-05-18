@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>09-table表格标签</title>
+    </head>
+    <body>
+        <!--
+            table:表格标签
+            tr:table row 表格的行
+            td:table data表格的列
+            align:水平位置的设置，在x轴的位置
+            cellspacing:设置边框和边框之间的距离
+            cellpadding:设置内边距
+        -->
+        <table align="center" border="1px" width="400px" height="200px" cellpadding="2px" cellspacing="0">
+            <caption><h1>学生信息表</h1></caption>
+            <tr align="center" bgcolor="#f0f8ff"> <!--table row-->
+                <td><b>编号</b></td> <!--table data-->
+                <td><b>姓名</b></td>
+                <td><b>年龄</b></td>
+            </tr>
+            <tr align="center">
+                <td rowspan="2">001</td>
+                <td>伍成龙</td>
+                <td>22</td>
+            </tr>
+            <tr align="center">
+                <td>王顺龙</td>
+                <td>21</td>
+            </tr>
+            <tr align="center">
+                <td colspan="3">003</td>
+            </tr>
+        </table>
+    </body>
+</html>

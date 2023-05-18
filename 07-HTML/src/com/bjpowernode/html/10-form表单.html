@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>10-form表单</title>
+    </head>
+    <body>
+        <!--
+            form表单：用于收取用户提交的数据到服务器，主要场景：注册、登录、用户数据信息的修改。
+            提交格式：name = value的形式
+            action:服务器的IP信息
+            placeholder：用于提示信息
+            method:定义提交方式
+                post get
+
+        -->
+        <center>
+            <form action="03-常用标签.html" method="get">
+                <table cellpadding="10px">
+                    <tr>
+                        <td align="right"> <label for="user">账号</label></td>
+                        <td><input type="text" name="username" placeholder="请输入密码" id="user"></td>
+                    </tr>
+                    <tr>
+                        <td align="right">密码</td>
+                        <td><input type="password" name="password"></td>
+                    </tr>
+                    <tr>
+                        <td align="right">确认密码</td>
+                        <td><input type="password" name="password1"></td>
+                    </tr>
+                    <tr>
+                        <td>邮箱地址</td>
+                        <td>
+                            <input type="text">@
+                            <select name="" id="">
+                                <option value="">qq.com</option>
+                                <option value="">163.com</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>兴趣爱好</td>
+                        <td>
+                            <input type="checkbox" name="hobby" value="美女" checked="checked"> 美女
+                            <input type="checkbox" name="hobby" value="萝莉"> 萝莉
+                            <input type="checkbox" name="hobby" value="少妇"> 少妇
+                            <input type="checkbox" name="hobby" value="御姐"> 御姐
+                            <input type="checkbox" name="hobby" value="御姐" checked="checked"> 玉姐
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>选择性别</td>
+                        <td>
+                            <input type="radio" name="sex" VALUE="man"  checked="checked"> 男
+                            <input type="radio" name="sex" value="women"> 女
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>选择城市</td>
+                        <td>
+                            <select name="">
+                                <option value="">请选择城市</option>
+                                <option value="" selected="selected">上海</option>
+                                <option value="">北京</option>
+                                <option value="">深圳</option>
+                                <option value="">曹县</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>文件上传</td>
+                        <td>
+                            <input type="file">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>自我介绍</td>
+                        <td>
+                            <textarea cols="40" rows="5"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="button" value="普通按钮">
+                            <button>提交按钮</button>
+                            <input type="submit">
+                            <input type="reset">
+                            <input type="image" src="images/1.jpg" height="20px" width="50px">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </center>
+    </body>
+</html>
+<tr>
+    <td></td>
+    <td></td>
+</tr>

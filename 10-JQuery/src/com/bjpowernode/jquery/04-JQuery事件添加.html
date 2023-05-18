@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>04-JQuery事件添加</title>
+        <script src="js/jquery-3.7.0.js"></script>
+        <script>
+            /*
+                在jQuery中，省略on直接使用事件名即可， onclick  --->  click
+                $("选择器").事件名(function(){
+                    事件代码;
+                });
+            */
+            $(function () {
+                // 获取div标签
+                var $box = $("#box");
+                // 添加事件
+                $box.click(function () {
+                    alert("div被点击了....");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="box" style="width: 200px;height: 200px;background-color: aquamarine">
+
+        </div>
+    </body>
+</html>

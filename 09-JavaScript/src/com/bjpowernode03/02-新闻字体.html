@@ -1,0 +1,55 @@
+<!DOCTYPE>
+<html>
+  <head>
+	  <title>新闻字体</title>
+	  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+    	.out{
+    		border: 1px red solid;
+    		width: 300px;
+    	}
+    	.max{
+    		font-size: 32px;
+    		color:red;
+    	}
+    	.mid{
+    		font-size: 22px;
+    		color:black;
+    	}
+    	.min{
+    		font-size: 14px;
+    		color:blue;
+    	}
+    </style>
+    <script type="text/javascript">
+		function changeFontSize(value) {
+			// 将value赋值给新闻的class属性  className 设置或获取对象的类。
+			document.getElementById("news").className = value;
+		}
+    </script>
+  </head>
+  <body>
+  	<div class="out"> 
+  		<div>
+			<!--
+				1.href=”javascript:void(0);”的含义
+					即让超链接去执行一个js函数，而不是去跳转到一个地址，而void(0)表示一个空的方法，也就是不执行js函数。
+				2.为什么要使用href=”javascript:void(0);”
+					javascript:是伪协议，表示url的内容通过javascript执行。void(0)表示不作任何操作，这样会防止链接跳转到其他页面。这么做其实往往是为了保留链接的样式，但不让链接执行实际操作。
+			-->
+  			<a href="javascript:void(0)" onclick="changeFontSize('max')">大</a>
+  			<a href="javascript:void(0)" onclick="changeFontSize('mid')">中</a>
+  			<a href="javascript:void(0)" onclick="changeFontSize('min')">小</a>
+  		</div>
+
+  		<div id="news" class="mid">
+			nodeName 属性含有某个节点的名称。
+			元素节点的 nodeName 是标签名称
+			属性节点的 nodeName 是属性名称
+			文本节点的 nodeName 永远是 #text
+			文档节点的 nodeName 永远是 #document
+		</div>
+
+  	</div>	
+  </body>
+</html>
