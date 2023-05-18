@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>11-CSS优先级</title>
+        <style>
+            /*
+                行内样式 > 内部样式 = 外部样式
+                id > class > 标签名 > 通配选择器
+            */
+
+
+            /*.span2 {
+                color: fuchsia;
+            }
+
+            #span1 {
+                color: green;
+            }*/
+            span {
+                color: blue;
+            }
+            * {
+                color: orange;
+            }
+        </style>
+    </head>
+    <body>
+        <span id="span1" class="span2">我是文本容器</span>
+    </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>14-盒子边框</title>
+        <style>
+            /*
+                边框border：上下左右4个方法，粗细，颜色，风格
+            */
+            div {
+                width: 300px;
+                height: 300px;
+                background-color: azure;
+                /*border-bottom: fuchsia 5px solid;
+                border-top: blue 10px dashed;
+                border-left: red 8px double;
+                border-right: orange 5px dotted;*/
+                border: darkgrey 1px solid;
+            }
+            table {
+                width: 300px;
+                height: 150px;
+                border: slateblue 1px solid;
+                border-spacing: 0;
+                border-collapse:collapse;/*表示边框合并在一起*/
+            }
+            td {
+                border: darkgrey 1px solid;
+                text-align: center;
+
+            }
+            input {
+                border: 0; /*清除边框*/
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            我是盒子
+        </div>
+        <table align="center">
+            <tr>
+                <td>编号</td>
+                <td>姓名</td>
+                <td>年龄</td>
+            </tr>
+            <tr>
+                <td>001</td>
+                <td>张三</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>李四</td>
+                <td>21</td>
+            </tr>
+        </table>
+        <input type="text">
+    </body>
+</html>

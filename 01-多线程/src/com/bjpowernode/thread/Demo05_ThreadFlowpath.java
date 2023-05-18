@@ -1,11 +1,11 @@
 package com.bjpowernode.thread;
 /*
     JVM对线程的切换是随机的，无法人为控制，但是可以控制执行中的线程对象。
-        static void sleep(long millis) 使当前正在执行的线程停留（暂停执行）指定的毫秒数。
-        static void sleep(long millis, int nanos) 导致正在执行的线程以指定的毫秒数加上指定的纳秒数来暂停（临时停止执行）。
-        void join() 等待这个线程死亡。
-        void join(long millis) 等待这个线程死亡 millis毫秒。
-        void join(long millis, int nanos) 等待最多 millis毫秒加上这个线程死亡的 nanos纳秒。
+        static void sleep​(long millis) 使当前正在执行的线程停留（暂停执行）指定的毫秒数。
+        static void sleep​(long millis, int nanos) 导致正在执行的线程以指定的毫秒数加上指定的纳秒数来暂停（临时停止执行）。
+        void join​() 等待这个线程死亡。
+        void join​(long millis) 等待这个线程死亡 millis毫秒。
+        void join​(long millis, int nanos) 等待最多 millis毫秒加上这个线程死亡的 nanos纳秒。
  */
 public class Demo05_ThreadFlowpath {
     public static void main(String[] args) throws InterruptedException {

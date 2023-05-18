@@ -10,69 +10,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.32889125">
+    <splitter split-orientation="horizontal" split-proportion="0.41471216">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/enum_/Score.java">
+            <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/fanShe/MyTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="936">
-                  <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+                <state relative-caret-position="150">
+                  <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
                   <folding>
-                    <element signature="e#229#230#0" expanded="true" />
-                    <element signature="e#263#264#0" expanded="true" />
-                    <element signature="e#411#412#0" expanded="true" />
-                    <element signature="e#455#456#0" expanded="true" />
-                    <element signature="e#575#576#0" expanded="true" />
-                    <element signature="e#627#628#0" expanded="true" />
-                    <element signature="e#739#740#0" expanded="true" />
-                    <element signature="e#791#792#0" expanded="true" />
-                    <element signature="e#903#904#0" expanded="true" />
-                    <element signature="e#955#956#0" expanded="true" />
-                    <element signature="e#1067#1068#0" expanded="true" />
-                    <element signature="e#1119#1120#0" expanded="true" />
-                    <element signature="e#444#445#0" expanded="true" />
-                    <element signature="e#468#469#0" expanded="true" />
-                    <element signature="e#312#313#0" expanded="true" />
-                    <element signature="e#336#337#0" expanded="true" />
-                    <element signature="e#369#370#0" expanded="true" />
-                    <element signature="e#393#394#0" expanded="true" />
-                    <element signature="e#426#427#0" expanded="true" />
-                    <element signature="e#450#451#0" expanded="true" />
-                    <element signature="e#483#484#0" expanded="true" />
-                    <element signature="e#507#508#0" expanded="true" />
-                    <element signature="e#737#738#0" expanded="true" />
-                    <element signature="e#773#774#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/enum_/EnumScore.java">
+            <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/fanShe/MyJunit.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="92">
-                  <caret line="24" selection-start-line="24" selection-end-line="25" />
-                  <folding>
-                    <element signature="e#132#133#0" expanded="true" />
-                    <element signature="e#184#185#0" expanded="true" />
-                    <element signature="e#252#253#0" expanded="true" />
-                    <element signature="e#303#304#0" expanded="true" />
-                    <element signature="e#371#372#0" expanded="true" />
-                    <element signature="e#422#423#0" expanded="true" />
-                    <element signature="e#490#491#0" expanded="true" />
-                    <element signature="e#541#542#0" expanded="true" />
-                    <element signature="e#609#610#0" expanded="true" />
-                    <element signature="e#659#660#0" expanded="true" />
-                    <element signature="e#756#757#0" expanded="true" />
-                    <element signature="e#790#791#0" expanded="true" />
-                    <element signature="e#833#834#0" expanded="true" />
-                    <element signature="e#874#875#0" expanded="true" />
-                    <element signature="e#1040#1041#0" expanded="true" />
-                    <element signature="e#1066#1067#0" expanded="true" />
-                    <element signature="e#1100#1101#0" expanded="true" />
-                    <element signature="e#1130#1131#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="120">
+                  <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
                 </state>
               </provider>
             </entry>
@@ -80,21 +37,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/enum_/Demo01_Score.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="13" selection-start-column="13" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/enum_/Demo02_EnumScore.java">
+            <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/fanShe/Test_MyTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="576">
-                  <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+                <state relative-caret-position="540">
+                  <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -107,6 +55,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -118,6 +67,19 @@
         <option value="$PROJECT_DIR$/src/com/bjpowernode/enum_/Score.java" />
         <option value="$PROJECT_DIR$/src/com/bjpowernode/enum_/EnumScore.java" />
         <option value="$PROJECT_DIR$/src/com/bjpowernode/enum_/Demo02_EnumScore.java" />
+        <option value="$PROJECT_DIR$/src/com/bjpowernode/annotation/Demo01_JdkAnno.java" />
+        <option value="$PROJECT_DIR$/src/com/bjpowernode/annotation/MyAnnotation.java" />
+        <option value="$PROJECT_DIR$/prop.properties" />
+        <option value="$PROJECT_DIR$/src/com/bjpowernode/fanShe/Demo02_Constructor.java" />
+        <option value="$PROJECT_DIR$/src/com/bjpowernode/fanShe/Demo02_Filed.java" />
+        <option value="$PROJECT_DIR$/src/com/bjpowernode/fanShe/Demo04_GetMethod.java" />
+        <option value="$PROJECT_DIR$/src/com/bjpowernode/fanShe/Demo01_GetClass.java" />
+        <option value="$PROJECT_DIR$/src/com/bjpowernode/fanShe/MyAnno.java" />
+        <option value="$PROJECT_DIR$/src/com/bjpowernode/fanShe/Student.java" />
+        <option value="$PROJECT_DIR$/src/com/bjpowernode/fanShe/Demo05_Annotation.java" />
+        <option value="$PROJECT_DIR$/src/com/bjpowernode/fanShe/MyTest.java" />
+        <option value="$PROJECT_DIR$/src/com/bjpowernode/fanShe/Test_MyTest.java" />
+        <option value="$PROJECT_DIR$/src/com/bjpowernode/fanShe/MyJunit.java" />
       </list>
     </option>
   </component>
@@ -131,37 +93,16 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="05-枚举、注解、反射" type="b2602c69:ProjectViewProjectNode" />
-              <item name="05-枚举、注解、反射" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="05-枚举、注解、反射" type="b2602c69:ProjectViewProjectNode" />
-              <item name="05-枚举、注解、反射" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="05-枚举、注解、反射" type="b2602c69:ProjectViewProjectNode" />
-              <item name="05-枚举、注解、反射" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="enum_" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1682653323065" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1683249565668" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -177,13 +118,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo02_EnumScore">
-    <configuration name="Demo01_Score" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bjpowernode.enum_.Demo01_Score" />
+  <component name="RunManager" selected="Application.Test_MyTest">
+    <configuration name="Demo04_GetMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bjpowernode.fanShe.Demo04_GetMethod" />
       <module name="05-枚举、注解、反射" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bjpowernode.enum_.*" />
+          <option name="PATTERN" value="com.bjpowernode.fanShe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,23 +132,74 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo02_EnumScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bjpowernode.enum_.Demo02_EnumScore" />
+    <configuration name="Test_MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bjpowernode.fanShe.Test_MyTest" />
       <module name="05-枚举、注解、反射" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bjpowernode.enum_.*" />
+          <option name="PATTERN" value="com.bjpowernode.fanShe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo05_Annotation.constructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="05-枚举、注解、反射" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bjpowernode.fanShe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bjpowernode.fanShe" />
+      <option name="MAIN_CLASS_NAME" value="com.bjpowernode.fanShe.Demo05_Annotation" />
+      <option name="METHOD_NAME" value="constructor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo05_Annotation.filed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="05-枚举、注解、反射" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bjpowernode.fanShe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bjpowernode.fanShe" />
+      <option name="MAIN_CLASS_NAME" value="com.bjpowernode.fanShe.Demo05_Annotation" />
+      <option name="METHOD_NAME" value="filed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo05_Annotation.method" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="05-枚举、注解、反射" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bjpowernode.fanShe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bjpowernode.fanShe" />
+      <option name="MAIN_CLASS_NAME" value="com.bjpowernode.fanShe.Demo05_Annotation" />
+      <option name="METHOD_NAME" value="method" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo02_EnumScore" />
-        <item itemvalue="Application.Demo01_Score" />
+        <item itemvalue="Application.Test_MyTest" />
+        <item itemvalue="JUnit.Demo05_Annotation.method" />
+        <item itemvalue="JUnit.Demo05_Annotation.filed" />
+        <item itemvalue="JUnit.Demo05_Annotation.constructor" />
+        <item itemvalue="Application.Demo04_GetMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -221,113 +213,111 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682649609457</updated>
-      <workItem from="1682649611994" duration="2674000" />
+      <workItem from="1682649611994" duration="3342000" />
+      <workItem from="1683160400698" duration="8805000" />
+      <workItem from="1683246945054" duration="2225000" />
+      <workItem from="1683272058609" duration="584000" />
+      <workItem from="1683506149748" duration="3000" />
+      <workItem from="1683525812748" duration="49000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Demo05_Annotation_constructor - 2023.05.05 at 08h 46m 21s.xml">
+      <configuration name="Demo05_Annotation.constructor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo05_Annotation_constructor - 2023.05.05 at 08h 47m 24s.xml">
+      <configuration name="Demo05_Annotation.constructor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo05_Annotation_filed - 2023.05.05 at 08h 49m 54s.xml">
+      <configuration name="Demo05_Annotation.filed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo05_Annotation_filed - 2023.05.05 at 08h 50m 56s.xml">
+      <configuration name="Demo05_Annotation.filed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo05_Annotation_method - 2023.05.05 at 08h 53m 19s.xml">
+      <configuration name="Demo05_Annotation.method" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo05_Annotation_method - 2023.05.05 at 08h 54m 09s.xml">
+      <configuration name="Demo05_Annotation.method" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2674000" />
+    <option name="totallyTimeSpent" value="15008000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.14605543" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.14765458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.63292545" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4827586" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32925472" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.14605543" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="5" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.63292545" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Database" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.14765458" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4827586" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32925472" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/enum_/Score.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/enum_/Demo02_EnumScore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-          <folding>
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-            <element signature="e#1067#1068#0" expanded="true" />
-            <element signature="e#1119#1120#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -365,10 +355,196 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/enum_/Demo02_EnumScore.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/enum_/Score.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+        <state relative-caret-position="786">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+          <folding>
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Deprecated.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="80" selection-start-line="80" selection-end-line="81" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/SuppressWarnings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="54" selection-start-line="54" selection-end-line="55" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Override.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/FunctionalInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="68" column="18" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/annotation/Retention.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/annotation/RetentionPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="55" column="11" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/annotation/ElementType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="102" column="19" lean-forward="true" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/annotation/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="86" column="11" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/annotation/Demo01_JdkAnno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#934#969#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/annotation/MyAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/fanShe/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/fanShe/Demo02_Constructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/fanShe/Demo02_Filed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="32" selection-start-line="32" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/fanShe/Demo04_GetMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="12" column="73" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prop.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/fanShe/Demo01_GetClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/fanShe/MyAnno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/fanShe/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/fanShe/Demo05_Annotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="19" column="43" selection-start-line="18" selection-start-column="4" selection-end-line="19" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/fanShe/MyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/fanShe/MyJunit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/fanShe/Test_MyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>

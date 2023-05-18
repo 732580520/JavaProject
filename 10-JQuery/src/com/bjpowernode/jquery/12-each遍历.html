@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>12-each遍历</title>
+        <script src="js/jquery-3.7.0.js"></script>
+        <script>
+            $(function () {
+                var $input = $("input[name=music]");
+                // each遍历  index:下标   element:数组中的元素,是js对象
+                $input.each(function (index,element) {
+                    var val = $(element).val();
+                    console.log(val);
+                });
+
+                for(let i = 0; i < $input.length; i++) {
+                    var val1 = $input.eq(i).val();
+                    console.log(val1);
+                }
+            });
+        </script>
+    </head>
+    <body>
+        <input type="checkbox" name="music" value="1111" />爱你一万年<br />
+        <input type="checkbox" name="music" value="2222" />忘情水<br />
+        <input type="checkbox" name="music" value="3333" />天意<br />
+        <input type="checkbox" name="music" value="4444" />冰雨<br />
+        <input type="checkbox" name="music" value="5555" />成都<br />
+        <input type="checkbox" name="music" value="6666" />武汉<br />
+        <input type="checkbox" name="music" value="7777" />北京北京<br />
+        <input type="checkbox" name="music" value="8888" />海阔天空<br />
+        <input type="checkbox" name="music" value="9999" />真的爱你<br />
+        <input type="checkbox" name="music" value="1010" />光辉岁月<br />
+        <input type="checkbox" name="music" value="1111" />红日<br />
+        <input type="checkbox" name="music" value="1212" />小苹果<br />
+    </body>
+</html>

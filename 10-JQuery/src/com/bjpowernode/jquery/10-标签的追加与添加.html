@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>10-标签的追加与添加</title>
+        <script src="js/jquery-3.7.0.js"></script>
+        <script>
+            $(function () {
+                // 获取标签对象
+                var $box = $("#box");
+                // 给当前标签对象的末尾追加数据
+                $box.append("<p>我也是盒子</p>");
+                // 给当前标签对象的头部追加数据
+                $box.prepend("<p>谁还不是个盒子</p>");
+                // 给当前标签对象 签名添加数据
+                $box.before("<div>我是div的哥哥</div>");
+                $box.after("<div>我是div的小弟弟</div>");
+            });
+        </script>
+    </head>
+    <body>
+        <div id="box">
+            <p>我是盒子</p>
+        </div>
+    </body>
+</html>

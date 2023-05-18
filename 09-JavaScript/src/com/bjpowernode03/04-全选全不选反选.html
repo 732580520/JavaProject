@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<title>check.html</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<script type="text/javascript">
+			window.onload = function () {
+				// 全选
+				var checkall = document.getElementById("checkall");
+				// 点击事件
+				checkall.onclick = function () {
+					// 获取复选框对象
+					var items = document.getElementsByName("items");
+					// 遍历数组
+					for(let i = 0; i < items.length; i++) {
+						items[i].checked = true;
+					}
+				};
+				// 全不选
+				document.getElementById("checkallNo").onclick = function () {
+					// 获取复选框对象
+					var items = document.getElementsByName("items");
+					// 遍历数组
+					for(let i = 0; i < items.length; i++) {
+						items[i].checked = false;
+					}
+				};
+				// 反选
+				document.getElementById("check_revsern").onclick = function () {
+					// 获取复选框对象
+					var items = document.getElementsByName("items");
+					// 遍历数组
+					for(let i = 0; i < items.length; i++) {
+						items[i].checked = !items[i].checked;
+					}
+				}
+			};
+		</script>
+	</head>
+<body>
+	您的爱好很广泛!!!
+	<br>
+	<input type="checkbox" name="items" value="足球" checked="checked"/>足球
+	<input type="checkbox" name="items" value="篮球" />篮球
+	<input type="checkbox" name="items" value="游泳" />游泳
+	<input type="checkbox" name="items" value="唱歌" />唱歌
+	<br>
+	<input type="button" name="checkall" id="checkall" value="全选" />
+	<input type="button" name="checkall" id="checkallNo" value="全不选" />
+	<input type="button" name="checkall" id="check_revsern" value="反选" />
+</body>
+
+</html>

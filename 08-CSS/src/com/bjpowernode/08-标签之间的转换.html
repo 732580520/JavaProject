@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>08-标签之间的转换</title>
+        <style>
+            /*
+                块级标签可以转换为行内或行内块
+                行内标签可以转换为块级或行内块
+                行内块标签只能转换为块级标签
+            */
+            div {
+                height: 100px;
+                width: 100px;
+                /*display: none;隐藏标签*/
+                display: inline;
+            }
+            .one {
+                background-color: red;
+            }
+            .two {
+                background-color: blue;
+            }
+            .three {
+                background-color: green;
+            }
+
+            span {
+                height: 100px;
+                width: 100px;
+                display: inline-block;
+            }
+            .span1 {
+                background-color: red;
+            }
+            .span2 {
+                background-color: blue;
+            }
+            .span3 {
+                background-color: green;
+            }
+            input {
+                height: 100px;
+                display: inline;
+            }
+            .input1 {
+                background-color: red;
+            }
+            .input2 {
+                background-color: blue;
+            }
+            .input3 {
+                background-color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="one">盒子1</div>
+        <div class="two">盒子2</div>
+        <div class="three">盒子3</div>
+        <span class="span1">span1</span>
+        <span class="span2">span2</span>
+        <span class="span3">span2</span>
+        <input type="text" class="input1">
+        <input type="text" class="input2">
+        <input type="text" class="input3">
+        <img src="1.png" alt="">
+    </body>
+</html>

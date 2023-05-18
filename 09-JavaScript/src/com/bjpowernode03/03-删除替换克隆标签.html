@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>删除、克隆和替换</title>
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+    	#one{
+    		border: 1px solid blue;
+    		background-color: #F1DD34;
+    		width: 300px;
+    		height: 150px;
+    	}
+    	#two{
+    		border: 1px solid blue;
+    		background-color: aqua;
+    		width: 250px;
+    		height: 100px;
+    	}
+    </style>
+    <script type="text/javascript">
+        /*
+            早期标签本身不能直接删除自己（自杀），只能通过父标签删除。
+            找父标签，兄弟标签可以通过属性实现。
+        */
+        // 删除指定的标签对象
+        function demo() {
+            // 1.获取要删除的标签对象
+            var one = document.getElementById("one");
+            one.remove();
+            /*// 2.获取父标签对象  parentNode 获取文档层次中的父对象。
+            var parentNode = one.parentNode;
+            // 3.通过父标签，删除子标签
+            parentNode.removeChild(one);*/
+        }
+        function demo1() {
+            // 1.获取要删除的标签对象
+            var two = document.getElementById("two");
+            // 2.获取上一个兄弟标签对象  previousSibling 获取对此对象的上一个兄弟对象的引用。
+            var one = two.previousSibling.previousSibling;
+            // 3.删除one
+            one.remove();
+        }
+        // replaceChild 用新的子元素替换已有的子元素。
+        function demo2() {
+            // 获取onetwo和父标签
+            var one = document.getElementById("one");
+            var two = document.getElementById("two");
+            var parentNode = one.parentNode;
+            // 通过父标签替换子标签
+            parentNode.replaceChild(one,two);
+        }
+        function demo3() {
+            // 获取onetwo和父标签
+            var one = document.getElementById("one");
+            var two = document.getElementById("two");
+            var parentNode = one.parentNode;
+
+            // 将one克隆一份 cloneNode 从文档层次中复制对对象的引用。
+            var cloneNode = one.cloneNode(true);
+            // 通过父标签替换子标签
+            parentNode.replaceChild(cloneNode,two);
+        }
+    </script>
+  </head>
+  
+  <body>
+  	<div id="one">
+        one one
+    </div>
+    <div id="two" >
+  		two two
+  	</div>
+  	<input type="button" value="删除元素" onclick="demo()"/>
+  	<input type="button" value="删除兄弟元素" onclick="demo1()"/>
+  	<input type="button" value="替换标签" onclick="demo2()"/>
+  	<input type="button" value="克隆和替换" onclick="demo3()"/>
+  </body>
+</html>

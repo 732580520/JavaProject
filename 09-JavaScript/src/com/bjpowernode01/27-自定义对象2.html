@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>27-自定义对象2</title>
+    <script>
+        function Dog(name,color) {
+            // 成员变量赋值
+            this.name = name;
+            this.color = color;
+            // 成员方法
+            this.setName = function (name) {
+                this.name = name;
+            };
+            this.getName = function () {
+                return this.name;
+            };
+        }
+        let dog1 = new Dog("小黑","白色");
+        dog1.age = 2;
+        document.write(dog1.name + "....." + dog1.color + "<br />");
+        dog1.setName("小灰");
+        var name = dog1.getName();
+        alert(name);
+
+        let dog2 = new Dog("小白","黑色");
+        document.write(dog2.name + "....." + dog2.color + "<br />");
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

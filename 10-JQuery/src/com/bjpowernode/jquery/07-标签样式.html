@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>07-标签样式</title>
+        <script src="js/jquery-3.7.0.js"></script>
+        <script>
+            $(function () {
+                // 获取按钮对象
+                var $button = $("button");
+                // 添加事件
+                $button.eq(0).click(function () {
+                    // 获取样式
+                    var $box = $("#box");
+                    var height = $box.css("height");
+                    var width = $box.css("width");
+                    var backgroundColor1 = $box.css("background-color");
+                    var backgroundColor2 = $box.css("backgroundColor");
+                    console.log(height + "...." + width + "....." + backgroundColor2);
+                });
+
+                $button.eq(1).click(function () {
+                    // 设置样式
+                    var $box = $("#box");
+                    /*$box.css("height", "600px");
+                    $box.css("width", "600px");
+                    $box.css("background-color", "red");*/
+                    $box.css({
+                        width: "400px",
+                        height: "400px",
+                        /*"background-color": "red"*/
+                        backgroundColor: "red",
+                        fontSize: "30px"
+                    });
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="box" style="height: 300px;width: 300px;background-color: aqua">盒子</div>
+        <button>获取样式1</button>
+        <button>设置样式1</button>
+    </body>
+</html>

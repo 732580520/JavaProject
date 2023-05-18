@@ -4,8 +4,8 @@ import java.util.concurrent.locks.ReentrantLock;
 /*
     java.util.concurrent.locks.Lock:专门负责代码的同步。
     成员方法
-        void lock() 获得锁。
-        void unlock() 释放锁。
+        void lock​() 获得锁。
+        void unlock​() 释放锁。
 	Lock l = ...;
 	l.lock();
 	try {

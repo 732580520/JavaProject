@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>01-Window对象</title>
+        <script>
+            /*
+                Window 对象
+                Window 对象是 JavaScript 层级中的顶层对象。
+                Window 对象代表一个浏览器窗口或一个框架。
+                Window 对象会在 <body> 或 <frameset> 每次出现时被自动创建。
+                setInterval() 按照指定的周期（以毫秒计）来调用函数或计算表达式。
+                setTimeout() 在指定的毫秒数后调用函数或计算表达式。
+            */
+            window.onload = function () {
+                // 每1秒执行一次setTime方法
+                window.setInterval("setTime()", 1000);
+            };
+            function setTime() {
+                // 获取div标签对象
+                var div = document.getElementById("box");
+                var date = new Date();
+                // 将时间写入到div标签中
+                div.innerHTML = date.toLocaleString();
+            }
+        </script>
+    </head>
+    <body>
+        <div id="box">实时显示系统时间</div>
+    </body>
+</html>

@@ -9,9 +9,9 @@ import java.util.stream.Stream;
 /*
     获取Stream流对象
 	集合：只有单列集合能够直接获取Stream对象，Map集合要转化为单列集合，然后在获取Stream对象。
-		Collection ---> default Stream<E> stream() 返回一个序列Stream与此集合作为其来源。
+		Collection ---> default Stream<E> stream​() 返回一个序列Stream与此集合作为其来源。
 	数组
-		Arrays --->  static <T> Stream<T> stream(T[] array) 返回具有指定数组的序列Stream作为其来源。
+		Arrays --->  static <T> Stream<T> stream​(T[] array) 返回具有指定数组的序列Stream作为其来源。
  */
 public class Demo05_GetStream {
     public static void main(String[] args) {

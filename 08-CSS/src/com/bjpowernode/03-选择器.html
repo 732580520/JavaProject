@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>03-选择器</title>
+        <style>
+            p {
+                color: red;
+            }
+            .one {
+                font-size: 36px;
+            }
+            .three {
+                color: coral;
+            }
+            #two {
+                font-family: "华文彩云";
+            }
+
+            * {
+                font-weight: bold;
+                margin: 0;
+                padding: 0;
+            }
+            .one,#two  {
+                font-size: 26px;
+            }
+        </style>
+    </head>
+    <body>
+        <!--
+            选择器:选择需要操作样式的标签对象。 标签名选择器   类选择器    id选择器   通配选择器
+                标签名选择器：通过标签名，选择需要设置样式的标签对象，选中的是当前页面中的所有指定标签
+                类选择器：通过标签的class属性，选择需要设置样式的标签对象。 在任何标签中都可以定义class属性
+                id选择器：通过标签的id属性，选择需要设置样式的标签对象。 在任何标签中都可以定义id属性,但是要求id要唯一
+        -->
+        普通文本
+        <p>段落1</p>
+        <div>
+            <p id="two">段落2</p>
+            <p class="one">段落3</p>
+            <p>段落4</p>
+        </div>
+        <span class="one">我是容器</span>
+        <b class="one three">加粗字体</b>
+    </body>
+</html>

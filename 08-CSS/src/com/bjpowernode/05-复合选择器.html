@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>05-复合选择器</title>
+        <style>
+            /*
+                复合选择器一般用于html标签嵌套比较复杂的元素时使用。分为后代元素选择器和子元素选择器。
+                后代选择器语法格式
+                其中选择器3是选择器2的后代，选择器2是选择器1的后代
+                    选择器1 选择器2 选择器3 {
+                        样式;
+                    }
+
+                子元素语法格式
+                其中子元素必须是父元素的直接后代
+                    父元素 > 子元素 {
+                        样式;
+                    }
+            */
+            div span {
+                color: red;
+            }
+            p span {
+                color: blue;
+            }
+            .one > span {
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <span>文本1</span>
+        <div class="one">
+            <p>
+                <span>文本2</span>
+            </p>
+            <span>文本3</span>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>15-函数的第二种定义格式</title>
+        <script>
+            /*
+                var functionName = new Function("形参","方法体");
+            */
+            var add = new Function( "a","b" ,"return a + b;");
+
+            var addValue = add(10,20);
+            alert(addValue);
+
+            function add(a,b) {
+                return a + b;
+            }
+
+
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>

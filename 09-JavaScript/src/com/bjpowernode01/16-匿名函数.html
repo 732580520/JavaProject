@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>16-匿名函数</title>
+        <script>
+            /*
+                匿名函数： function(形参) {函数体} , 一般结合事件触发使用。
+            */
+            var demo = function() {
+                alert("匿名函数运行....");
+            };
+            demo();
+
+
+            /*
+                window:是js中的一个对象
+                onload:是window对象的一个事件，表示文档加载完成的事件
+            */
+            window.onload = function () {
+                // 文档流加载事件
+                var div = document.getElementById("box");
+                alert(div);
+            };
+
+
+
+        </script>
+    </head>
+    <body>
+        <div id="box">我是盒子</div>
+    </body>
+</html>

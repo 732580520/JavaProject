@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>23-Date对象</title>
+    <script>
+        /*
+            Date 对象是 JavaScript 的一种内部数据类型。
+            Date 对象没有可以直接读写的属性，所有对日期和时间值的访问都是通过其方法执行的。
+        */
+        let date = new Date();
+        document.write(date + "<br />");
+        document.write(date.toDateString() + "<br />");
+        document.write(date.toLocaleDateString() + "<br />");
+        document.write(date.toLocaleString() + "<br />");
+        document.write(date.toLocaleTimeString() + "<br />");
+        document.write(date.toTimeString() + "<br />");
+        /*
+            getDate() 从 Date 对象返回一个月中的某一天 (1 ~ 31) 1 2 3
+            getMonth() 从 Date 对象返回月份 (0 ~ 11) 1 2 3
+            getFullYear() 从 Date 对象以四位数字返回年份 1 4 4
+            getHours() 返回 Date 对象的小时 (0 ~ 23) 1 2 3
+            getMinutes() 返回 Date 对象的分钟 (0 ~ 59) 1 2 3
+            getSeconds() 返回 Date 对象的秒数 (0 ~ 59))
+        */
+        var fullYear = date.getFullYear();
+        var month = date.getMonth();
+        var day = date.getDate();
+        var hours = date.getHours();
+        var minutes = date.getMinutes();
+        var seconds = date.getSeconds();
+        document.write(fullYear + "年" + month + "月" + day + "日 " + hours + ":" + minutes + ":" + seconds);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

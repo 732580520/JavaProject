@@ -5,7 +5,7 @@ import java.util.function.Supplier;
 /*
     java.util.function.Supplier<T>:生产型接口。代表结果供应商。
     抽象方法
-        T get() 获得结果。
+        T get​() 获得结果。
  */
 public class Demo02_Supplier {
     public static void main(String[] args) {

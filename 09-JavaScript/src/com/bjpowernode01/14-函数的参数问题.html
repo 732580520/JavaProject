@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>14-函数的参数问题</title>
+        <script>
+            /*
+                函数上的参数叫做形参，调用函数时传递的参数叫做实参，在java中形参和实现要一一对应，但是在js中不需要。
+                原因是在js的函数中有一个数组变量：arguments保存调用方法时传递的实参。
+            */
+            function add(a,b) {
+                document.write("a = " + a + " , b = " + b + " , 数组长度：" + arguments.length + "<br />");
+                console.log(arguments);
+            }
+            add(1, 2, 3, 4, 5, 6, 7, 8, 9);
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>

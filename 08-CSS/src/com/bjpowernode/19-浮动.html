@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>19-浮动</title>
+        <style>
+            /*
+                元素的浮动是指设置了浮动属性的元素会脱离标准普通流的控制，移动到其父元素中的指定位置的过程。
+                标准流是指浏览器对页面元素按照从上到下，从左到右的顺序排列。
+                在CSS中浮动通过float属性来设置，语法如下
+                    !*none:默认值不浮动  left:向左浮动  right:向右浮动*!
+                        float: none || left || right;
+                如果浮动元素的上面的元素没有浮动，则当前被浮动的元素位置不变
+            */
+            .outer {
+                width: 600px;
+                height: 600px;
+                border: black 1px solid;
+                margin-left: 35%;
+            }
+            .box1 {
+                width: 150px;
+                height: 150px;
+                background-color: blue;
+                float: right;
+            }
+            .box2 {
+                width: 150px;
+                height: 150px;
+                background-color: red;
+                float: right;
+            }
+            .box3 {
+                 width: 150px;
+                 height: 150px;
+                 background-color: green;
+                 float: right;
+             }
+            li {
+                list-style: none;
+                float: left;
+                margin: 10px;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="outer">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+        </div>
+
+        <ul>
+            <a href="#"><li>京东家电</li></a>
+            <li>进口好物</li>
+            <li>京东五金城</li>
+            <li>PLUS会员</li>
+        </ul>
+    </body>
+</html>

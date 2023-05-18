@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>17-相邻块元素垂直外边距合并塌陷</title>
+        <style>
+            div {
+                height: 200px;
+                width: 200px;
+            }
+            .box1 {
+                background-color: blue;
+                margin-bottom: 100px;
+            }
+            .box2 {
+                background-color: orange;
+                margin-top: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box1"></div>
+        <div class="box2"></div>
+    </body>
+</html>

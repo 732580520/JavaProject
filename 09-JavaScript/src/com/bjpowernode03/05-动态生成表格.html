@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>动态生成表格</title>
+        <style type="text/css">
+            table{
+                border: 1px red solid;
+                width: 800px;
+                border-collapse:collapse;
+            }
+            td{
+                border:1px blue solid;
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+        <script type="text/javascript">
+            // table  tr  td
+            function demo() {
+                // 获取行和列
+                var row = document.getElementById("row").value;
+                var col = document.getElementById("col").value;
+                // alert(row + "." + col);
+                // 创建table
+                var table = document.createElement("table");
+
+                for(let i = 1; i <= row; i++) {
+                    // 创建行
+                    var tr = document.createElement("tr");
+                    for(let j = 1; j <= col; j++) {
+                        //创建列
+                        var td = document.createElement("td");
+                        // 给列中添加数据
+                        td.innerHTML = "第" + i + "行，第" + j + "列";
+
+                        // 将列添加到行中
+                        tr.appendChild(td);
+                    }
+                    // 将行添加到表格
+                    table.appendChild(tr);
+                }
+                // 将表格添加到div标签中
+                document.getElementById("one").appendChild(table);
+            }
+        </script>
+    </head>
+
+    <body>
+        <!--将表格添加到div标签中-->
+        <div id="one" >
+
+        </div>
+
+        输入行：<input type="text" id="row" value=""/><br />
+        输入列：<input type="text" id="col"/><br />
+        <input type="button" value="创建表格" onclick="demo()"/>
+    </body>
+</html>

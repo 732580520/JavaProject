@@ -5,8 +5,8 @@ import java.util.Collections;
 
 /*
     Stream成员方法'延迟方法：返回值还是Stream对象   终结方法：返回值不是Stream对象
-        Stream<T> filter(Predicate<? super T> predicate) 返回由与此给定谓词匹配的此流的元素组成的流。
-        void forEach(Consumer<? super T> action) 对此流的每个元素执行操作。
+        Stream<T> filter​(Predicate<? super T> predicate) 返回由与此给定谓词匹配的此流的元素组成的流。
+        void forEach​(Consumer<? super T> action) 对此流的每个元素执行操作。
  */
 public class Demo06_Method {
     public static void main(String[] args) {

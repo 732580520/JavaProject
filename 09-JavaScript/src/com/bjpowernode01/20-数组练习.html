@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>20-数组练习</title>
+    <script>
+        // 声明数组
+        var arr = [4, 1, 2, 3, 9, 7, 5, 6, 8];
+        print(arr);
+        var sum = getSum(arr);
+        alert(sum);
+        var max = getMax(arr);
+        alert(max);
+        // sort(arr);
+        arr.sort();
+        print(arr);
+
+
+        // 遍历数组
+        function print(arr) {
+            for(index in arr) {
+                document.write(arr[index] + " , ")
+            }
+            document.write("<br />");
+        }
+        // 数组求和
+        function getSum(arr) {
+            let sum = 0;
+            for(let i = 0; i< arr.length; i++) {
+                sum += arr[i]
+            }
+            return sum;
+        }
+        // 数组求最大值  打擂台
+        function getMax(arr) {
+            // 默认数组的0下标最大
+            let max = arr[0];
+            for(let i = 1; i < arr.length; i++) {
+               if( max < arr[i] ) {
+                   max = arr[i];
+               }
+            }
+            return max;
+        }
+        // 数组的排序
+        function sort(arr) {
+            // 外层循环提供用于比较的起始下标
+            for(let i = 0; i < arr.length - 1; i++) {
+                // 内层循环提供用于比较的后续下标
+                for(let j = i + 1; j < arr.length; j++ ) {
+                    // 判断大小的关系
+                    if(arr[i] > arr[j]) {
+                        let temp = arr[i];
+                        arr[i] = arr[j];
+                        arr[j] = temp;
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

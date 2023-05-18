@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>05-属性操作</title>
+        <script src="js/jquery-3.7.0.js"></script>
+        <script>
+            $(function () {
+                // 获取按钮对象
+                var $buttons = $("button");
+                // 添加事件  eq(index) 获取数组的下标
+                $buttons.eq(0).click(function () {
+                    // 获取input标签对象
+                    var $uname = $("#uname");
+                    var attr = $uname.attr("flag");  // 可以操作自定义和预定义属性
+                    console.log("attr ：" + attr);
+
+                    var prop = $uname.prop("flag"); // 只可以操作预定义属性
+                    console.log("prop ：" + prop);
+
+                    var val = $uname.val(); // 只能操作value属性
+                    console.log("val ：" + val);
+                });
+
+                // 设置属性
+                $buttons.eq(1).click(function () {
+                    // 获取input标签
+                    var $uname = $("#uname");
+                    $uname.attr("value", "李四");
+                    //$uname.prop("type", "password");
+                    $uname.val("赵六");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        账号：<input type="text" id="uname" value="张三" flag="你瞅啥" /> <br />
+        <button>获取属性</button>
+        <button>设置属性</button>
+    </body>
+</html>

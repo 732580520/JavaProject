@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>08-标签的样式设置</title>
+        <style>
+            div {
+                width: 300px;
+                height: 300px;
+                background-color: red;
+            }
+        </style>
+        <script>
+            window.onload = function () {
+                // 获取div标签对象
+                var div = document.getElementsByClassName("box")[0];
+                // 给div添加事件
+                // onmouseenter 当用户将鼠标指针移动到对象内时触发。
+                div.onmouseenter = function () {
+                    div.style.backgroundColor  = "yellow";
+                    div.style.height = "250px";
+                };
+
+
+
+                // onmouseleave 当用户将鼠标指针移出对象边界时触发。
+                div.onmouseleave = function () {
+                    div.style.backgroundColor  = "greed";
+                    div.style.width = "500px";
+                };
+
+                div.onclick = function () {
+                    div.style.backgroundColor  = "blue";
+                    div.style.height = "100px";
+                    div.style.width = "100px";
+                };
+
+                // 点击按钮，隐藏标签
+                document.getElementById("btn").onclick = function () {
+                    div.style.display = "none";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="box"></div>
+        <button id="btn">隐藏标签</button>
+    </body>
+</html>

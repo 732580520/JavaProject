@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>11-Let关键字</title>
+        <script>
+            /*
+                 var和let关键字都是用于定义变量的
+                 var属于全局变量
+                 let数据局部变量
+            */
+            var v;
+            document.write("v = " + v + "<br />");
+            v = 123;
+            document.write("v = " + v + "<br />");
+
+            let l;
+            document.write("l = " + l + "<br />");
+            l = 456;
+            document.write("l = " + l + "<br />");
+
+
+            document.write("========================<br />");
+
+            document.write("v1 = " + v1 + "<br />");
+            var v1 = 123;
+
+            let l1 = 123;
+            document.write("l1 = " + l1 + "<br />");
+
+            document.write("========================<br />");
+
+            for(let i = 1; i <= 10; i++) {
+                document.write("美女约吗?" + i + "<br />");
+            }
+            document.write("i = " + i + "<br />");
+
+
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
