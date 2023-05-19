@@ -26,6 +26,7 @@
                     return false;
                 }
             }
+<<<<<<< HEAD
             function checksex(){
                 // 获取所有的name=“sex”的复选框
                 var sex = document.getElementsByName("sex");
@@ -41,6 +42,11 @@
             // true:提交给后台服务器  false：不允许提交
             function _validata() {
                 if(checkuser() && checkpwd()&&checksex()) {
+=======
+            // true:提交给后台服务器  false：不允许提交
+            function _validata() {
+                if(checkuser() && checkpwd()) {
+>>>>>>> origin/master
                     return true;
                 }else {
                     return false;
