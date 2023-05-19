@@ -4,38 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a87e20f-6b9b-4d9c-b114-1c640c1721fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/fastjson_1_2_73.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-网络编程/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-网络编程/images/192.168.137.101(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-网络编程/images/192.168.137.101.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-网络编程/images/192.168.137.103.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-网络编程/images/192.168.137.107.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-网络编程/images/192.168.137.109.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-网络编程/out/production/11-网络编程/com/bjpowernode/tcp/Demo04_UpSocket.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-网络编程/out/production/11-网络编程/com/bjpowernode/tcp/Demo05_UpServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-网络编程/out/production/11-网络编程/com/bjpowernode/tcp/Demo06_UUID.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-网络编程/src/com/bjpowernode/tcp/Demo04_UpSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-网络编程/src/com/bjpowernode/tcp/Demo05_UpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-网络编程/src/com/bjpowernode/tcp/Demo06_UUID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-网络编程/src/com/bjpowernode/tcp/Demo4_UpSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-网络编程/src/com/bjpowernode/tcp/HomeWork1_UpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-网络编程/src/com/bjpowernode/tcp/HomeWork1_UpSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-网络编程/src/com/bjpowernode/tcp/HomeWork_UpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-网络编程/src/com/bjpowernode/tcp/HomeWork_UpSocket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode03/09-注册页面.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode03/09-注册页面.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-JQuery/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/10-JQuery/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-JQuery/10-JQuery.iml" beforeDir="false" afterPath="$PROJECT_DIR$/10-JQuery/10-JQuery.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-JQuery/src/com/bjpowernode/json/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/10-JQuery/src/com/bjpowernode/json/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11-网络编程/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/11-网络编程/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/Student.java" beforeDir="false" />
-    </list>
+    <list default="true" id="5a87e20f-6b9b-4d9c-b114-1c640c1721fd" name="Changes" comment="20230519 21:41" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +24,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Merging master",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "E:/02-java进阶/JavaProject/11-网络编程/src/com/bjpowernode/tcp",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
@@ -149,6 +118,29 @@
     </recent_temporary>
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="20230519 21:41">
+      <created>1684503854801</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684503854801</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20230519 21:41" />
+    <option name="LAST_COMMIT_MESSAGE" value="20230519 21:41" />
   </component>
 </project>
