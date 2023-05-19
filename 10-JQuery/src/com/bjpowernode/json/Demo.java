@@ -21,7 +21,7 @@ import java.util.List;
 public class Demo {
     public static void main(String[] args) {
         // 创建User对象
-        User user = new User(1, "小玄子", "紫禁城", new Date());
+        com.bjpowernode.json.User user = new com.bjpowernode.json.User(1, "小玄子", "紫禁城", new Date());
         System.out.println("user = " + user);
         // 将一个对象 转换为JSON字符串
         String userJson = JSON.toJSONString(user);
@@ -33,20 +33,20 @@ public class Demo {
         System.out.println("strJson = " + strJson);
 
         // 创建多个对象
-        User u1 = new User(1,"伍成龙","上海",new Date());
-        User u2 = new User(2,"王顺龙","北京",new Date());
-        User u3 = new User(3, "李小龙", "深圳",new Date());
+        com.bjpowernode.json.User u1 = new com.bjpowernode.json.User(1,"伍成龙","上海",new Date());
+        com.bjpowernode.json.User u2 = new com.bjpowernode.json.User(2,"王顺龙","北京",new Date());
+        com.bjpowernode.json.User u3 = new com.bjpowernode.json.User(3, "李小龙", "深圳",new Date());
         // 将需要转换的数据 保存到集合中，之间转换集合
-        List<User> users = Arrays.asList(u1, u2, u3);
+        List<com.bjpowernode.json.User> users = Arrays.asList(u1, u2, u3);
         String usersJson = JSON.toJSONString(users);
         System.out.println("usersJson = " + usersJson);
 
         /////////////////////////////////////////////////////////////////////////////////////
         // 将json字符串转换为java对象
-        User userObj = JSON.parseObject(userJson,User.class);
+        com.bjpowernode.json.User userObj = JSON.parseObject(userJson, com.bjpowernode.json.User.class);
         System.out.println("userObj = " + userObj);
         // 将json字符串数组转换为java对象
-        List<User> usersObj = JSON.parseArray(usersJson, User.class);
+        List<com.bjpowernode.json.User> usersObj = JSON.parseArray(usersJson, com.bjpowernode.json.User.class);
         System.out.println("usersObj = " + usersObj);
 
 

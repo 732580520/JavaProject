@@ -4,14 +4,14 @@ import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class HomeWork_UpServer {
+public class HomeWork1_UpServer {
     public static void main(String[] args) throws IOException {
         ServerSocket ss = new ServerSocket(9999);
         while (true){
             Socket socket = ss.accept();
              new Thread(()->{
                  try {
-                     BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+                     BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream(),"GBK"));
                      String fileName=socket.getInetAddress().getHostAddress();
                      File file = new File( fileName + ".txt");
                      int name=1;
@@ -19,7 +19,7 @@ public class HomeWork_UpServer {
                          file = new File(fileName + "(" + name + ").txt");
                          name++;
                      }
-                     BufferedWriter bw=new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file)));
+                     BufferedWriter bw=new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file),"GBK"));
                      String line;
                      while ((line=br.readLine())!=null){
                          bw.write(line);

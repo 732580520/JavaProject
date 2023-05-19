@@ -10,6 +10,12 @@
       <sourceFolder url="file://$MODULE_DIR$/05-枚举、注解、反射/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/06-JDBC/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/07-HTML/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/08-CSS/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/09-JavaScript/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10-JQuery/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11-网络编程/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JavaScript/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -35,5 +41,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
+    <orderEntry type="library" name="fastjson-1.2.73" level="project" />
   </component>
 </module>
