@@ -4,400 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e187514d-ef38-4b05-b45f-08c3e45051fd" name="Changes" comment="20230518">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/spring_beans_5_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/lock/Demo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/lock/Demo01_Lock.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/lock/Demo02_Executor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/lock/Get.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/lock/Resource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/lock/Set.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/lock/Task.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/lock/Ticket.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/runnable/Demo01_MyRunnable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/runnable/Demo02_MainShiTi$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/runnable/Demo02_MainShiTi$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/runnable/Demo02_MainShiTi$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/runnable/Demo02_MainShiTi$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/runnable/Demo02_MainShiTi$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/runnable/Demo02_MainShiTi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/runnable/MyRunnable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/synchronized_/Demo01_Ticket.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/synchronized_/Demo02_Ticket02.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/synchronized_/Demo03_Ticket03.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/synchronized_/Demo04_Single.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/synchronized_/Demo05_DieLock.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/synchronized_/DieLock.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/synchronized_/Single.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/synchronized_/SingleThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/synchronized_/Ticket.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/synchronized_/Ticket02.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/synchronized_/Ticket03.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/thread/Demo01_MyThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/thread/Demo02_ThreadName.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/thread/Demo03_ThreadPriority.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/thread/Demo04_DaemonThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/thread/Demo05_ThreadFlowpath.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/thread/MyThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/wait_notiry/Demo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/wait_notiry/Get.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/wait_notiry/Resource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-多线程/out/production/01-多线程/com/bjpowernode/wait_notiry/Set.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-Lambda表达式/out/production/02-Lambda表达式/com/bjpowernode/functionInterface/Inter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-Lambda表达式/out/production/02-Lambda表达式/com/bjpowernode/lambda/Demo01_Runnable$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-Lambda表达式/out/production/02-Lambda表达式/com/bjpowernode/lambda/Demo01_Runnable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-Lambda表达式/out/production/02-Lambda表达式/com/bjpowernode/lambda/Demo02_Comparator$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-Lambda表达式/out/production/02-Lambda表达式/com/bjpowernode/lambda/Demo02_Comparator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-Lambda表达式/out/production/02-Lambda表达式/com/bjpowernode/lambda/Demo03_FileFilter$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-Lambda表达式/out/production/02-Lambda表达式/com/bjpowernode/lambda/Demo03_FileFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-Lambda表达式/out/production/02-Lambda表达式/com/bjpowernode/lambda/Demo04_Predicate$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-Lambda表达式/out/production/02-Lambda表达式/com/bjpowernode/lambda/Demo04_Predicate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-Lambda表达式/out/production/02-Lambda表达式/com/bjpowernode/lambda/MyRunnable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-Stream流/out/production/03-Stream流/com/bpowernode/stream/Demo01_Stream.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-Stream流/out/production/03-Stream流/com/bpowernode/stream/Demo02_Supplier$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-Stream流/out/production/03-Stream流/com/bpowernode/stream/Demo02_Supplier.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-Stream流/out/production/03-Stream流/com/bpowernode/stream/Demo03_Consumer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-Stream流/out/production/03-Stream流/com/bpowernode/stream/Demo03_Consumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-Stream流/out/production/03-Stream流/com/bpowernode/stream/Demo04_Function$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-Stream流/out/production/03-Stream流/com/bpowernode/stream/Demo04_Function.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-Stream流/out/production/03-Stream流/com/bpowernode/stream/Demo05_GetStream.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-Stream流/out/production/03-Stream流/com/bpowernode/stream/Demo06_Method.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-Stream流/out/production/03-Stream流/com/bpowernode/stream/Demo07_Method.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-Stream流/out/production/03-Stream流/com/bpowernode/stream/Demo08_Method.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-Stream流/out/production/03-Stream流/com/bpowernode/stream/Demo09_Method.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-Stream流/out/production/03-Stream流/com/bpowernode/stream/Demo10_Method.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-Stream流/out/production/03-Stream流/com/bpowernode/stream/Demo11_Method.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-Stream流/out/production/03-Stream流/com/bpowernode/stream/Demo12_Parallel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-Stream流/out/production/03-Stream流/com/bpowernode/stream/Demo13_GetValueToCollecion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-Stream流/out/production/03-Stream流/com/bpowernode/stream/Demo14_GetValueToArray$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-Stream流/out/production/03-Stream流/com/bpowernode/stream/Demo14_GetValueToArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-Stream流/out/production/03-Stream流/com/bpowernode/stream/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-Stream流/out/production/03-Stream流/com/bpowernode/stream/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-Junit/out/production/04-Junit/com/bjpowernode/junit/ArrayUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-Junit/out/production/04-Junit/com/bjpowernode/junit/Demo_ArrayUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-Junit/out/production/04-Junit/com/bjpowernode/junit/Demo_Junit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/annotation/Demo01_JdkAnno.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/annotation/Fu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/annotation/Inter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/annotation/MyAnnotation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/annotation/MyEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/annotation/Zi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/enum_/Demo01_Score.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/enum_/Demo02_EnumScore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/enum_/EnumScore$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/enum_/EnumScore$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/enum_/EnumScore$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/enum_/EnumScore$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/enum_/EnumScore$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/enum_/EnumScore$Inner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/enum_/EnumScore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/enum_/Score$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/enum_/Score$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/enum_/Score$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/enum_/Score$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/enum_/Score$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/enum_/Score.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/fanShe/Demo01_GetClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/fanShe/Demo02_Constructor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/fanShe/MyJunit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/fanShe/MyTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/fanShe/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/fanShe/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/fanShe/Test_MyTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/prop.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/src/com/bjpowernode/annotation/Demo01_JdkAnno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/src/com/bjpowernode/annotation/MyAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/src/com/bjpowernode/fanShe/Demo01_GetClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/src/com/bjpowernode/fanShe/Demo02_Constructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/src/com/bjpowernode/fanShe/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-枚举、注解、反射/src/com/bjpowernode/fanShe/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/.idea/libraries/c3p0_0_9_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/.idea/libraries/druid_1_0_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/.idea/libraries/mysql_connector_java_8_0_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/.idea/libraries/spring_tx_5_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/06-JDBC.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/day01/day01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/day01/lib/mysql-connector-java-8.0.22.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/druid.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/lib/c3p0-0.9.5.2-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/lib/c3p0-0.9.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/lib/druid-1.0.9-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/lib/druid-1.0.9-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/lib/druid-1.0.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/lib/mchange-commons-java-0.2.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/lib/mysql-connector-java-8.0.22.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/lib/spring-beans-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/lib/spring-core-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/lib/spring-jdbc-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/lib/spring-tx-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/out/production/06-JDBC/META-INF/06-JDBC.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/out/production/06-JDBC/c3p0-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/out/production/06-JDBC/com/bjpowernode/jdbc/Demo01_HelloJdbc.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/out/production/06-JDBC/com/bjpowernode/jdbc/Demo02_JdbcApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/out/production/06-JDBC/com/bjpowernode/jdbc/Demo03_ResultSet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/out/production/06-JDBC/com/bjpowernode/jdbc/Demo04_Exception.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/out/production/06-JDBC/com/bjpowernode/jdbc/Demo05_JdbcURUD.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/out/production/06-JDBC/com/bjpowernode/jdbc/JdbcUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/out/production/06-JDBC/com/bjpowernode/jdbc/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/out/production/06-JDBC/com/bjpowernode/jdbc2/Demo01_Login.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/out/production/06-JDBC/com/bjpowernode/jdbc2/Demo02_Login.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/out/production/06-JDBC/com/bjpowernode/jdbc2/Demo03_Insert.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/out/production/06-JDBC/com/bjpowernode/jdbc2/Demo04_Update.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/out/production/06-JDBC/com/bjpowernode/jdbc2/Demo05_Delete.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/out/production/06-JDBC/com/bjpowernode/jdbc2/Demo06_Select.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/out/production/06-JDBC/com/bjpowernode/jdbc2/Demo07_StatementBatch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/out/production/06-JDBC/com/bjpowernode/jdbc2/Demo08_PreparedBatch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/out/production/06-JDBC/com/bjpowernode/jdbc2/Demo09_JdbcTransaction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/out/production/06-JDBC/com/bjpowernode/jdbc2/Demo10_Savepoint.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/out/production/06-JDBC/com/bjpowernode/jdbc2/Demo11_C3P0.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/out/production/06-JDBC/com/bjpowernode/jdbc2/Demo12_Druid.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/out/production/06-JDBC/com/bjpowernode/jdbc2/Demo13_DruidInsert.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/out/production/06-JDBC/com/bjpowernode/jdbc2/Demo14_DruidUpdate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/out/production/06-JDBC/com/bjpowernode/jdbc2/Demo15_DruidDelete.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/out/production/06-JDBC/com/bjpowernode/jdbc2/Demo16_JdbcTemplate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/out/production/06-JDBC/com/bjpowernode/jdbc2/DruidUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/src/c3p0-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc/Demo01_HelloJdbc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc/Demo02_JdbcApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc/Demo03_ResultSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc/Demo04_Exception.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc/Demo05_JdbcURUD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc/JdbcUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc2/Demo01_Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc2/Demo02_Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc2/Demo03_Insert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc2/Demo04_Update.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc2/Demo05_Delete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc2/Demo06_Select.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc2/Demo07_StatementBatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc2/Demo08_PreparedBatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc2/Demo09_JdbcTransaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc2/Demo10_Savepoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc2/Demo11_C3P0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc2/Demo12_Druid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc2/Demo13_DruidInsert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc2/Demo14_DruidUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc2/Demo15_DruidDelete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc2/Demo16_JdbcTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc2/DruidUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-HTML/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-HTML/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-HTML/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-HTML/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-HTML/07-HTML.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-HTML/src/com/bjpowernode/aaa/aaa目录下的html文件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-HTML/src/com/bjpowernode/html/01-HTML概述.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-HTML/src/com/bjpowernode/html/02-HTML标签介绍.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-HTML/src/com/bjpowernode/html/03-常用标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-HTML/src/com/bjpowernode/html/04-文本格式化标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-HTML/src/com/bjpowernode/html/05-实体字符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-HTML/src/com/bjpowernode/html/06-超链接标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-HTML/src/com/bjpowernode/html/07-图片标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-HTML/src/com/bjpowernode/html/08-列表标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-HTML/src/com/bjpowernode/html/09-table表格标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-HTML/src/com/bjpowernode/html/10-form表单.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-HTML/src/com/bjpowernode/html/abc/abcd/abcd目录下html文件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-HTML/src/com/bjpowernode/html/abc/abc目录下的html文件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-HTML/src/com/bjpowernode/html/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-HTML/src/com/bjpowernode/html/images/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/08-CSS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/src/com/bjpowernode/01-CSS概述.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/src/com/bjpowernode/02-CSS的3种格式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/src/com/bjpowernode/03-CSS字体样式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/src/com/bjpowernode/03-选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/src/com/bjpowernode/04-CSS外观属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/src/com/bjpowernode/05-复合选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/src/com/bjpowernode/06-练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/src/com/bjpowernode/07-标签分类.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/src/com/bjpowernode/08-标签之间的转换.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/src/com/bjpowernode/09-CSS伪类.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/src/com/bjpowernode/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/src/com/bjpowernode/10-文本修饰 text-decoration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/src/com/bjpowernode/11-CSS优先级.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/src/com/bjpowernode/12-背景样式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/src/com/bjpowernode/13-盒子模型.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/src/com/bjpowernode/14-盒子边框.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/src/com/bjpowernode/15-内边距.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/src/com/bjpowernode/16-外边距.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/src/com/bjpowernode/17-相邻块元素垂直外边距合并塌陷.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/src/com/bjpowernode/18-嵌套块元素垂直外边距合并塌陷.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/src/com/bjpowernode/19-浮动.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/src/com/bjpowernode/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/src/com/bjpowernode/20-定位.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/src/com/bjpowernode/css/mycss.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-CSS/src/com/bjpowernode/top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/JavaScript.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/out/production/JavaScript/com/bjpowernode/01-HTML和JS的结合方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/out/production/JavaScript/com/bjpowernode/02-注释关键字和标识符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/out/production/JavaScript/com/bjpowernode/03-常量变量和数据类型.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/out/production/JavaScript/com/bjpowernode/04-算数运算符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/out/production/JavaScript/com/bjpowernode/05-赋值运算.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/out/production/JavaScript/com/bjpowernode/06-比较运算.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/out/production/JavaScript/com/bjpowernode/07-逻辑运算.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/out/production/JavaScript/com/bjpowernode/08-三元运算.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/out/production/JavaScript/com/bjpowernode/09-判断和分支语句.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/out/production/JavaScript/com/bjpowernode/10-循环语句.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/out/production/JavaScript/com/bjpowernode/Demo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/out/production/JavaScript/com/bjpowernode/js/myjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/01-HTML和JS的结合方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/02-注释关键字和标识符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/03-常量变量和数据类型.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/04-算数运算符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/05-赋值运算.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/06-比较运算.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/07-逻辑运算.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/08-三元运算.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/09-判断和分支语句.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/10-循环语句.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/11-Let关键字.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/12-乘法表.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/13-无参函数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/14-函数的参数问题.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/15-函数的第二种定义格式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/16-匿名函数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/17-消息框.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/18-数组的定义和使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/19-数组的第二种定义格式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/20-数组练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/21-Array对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/22-String对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/23-Date对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/24-Math对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/25-全局函数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/26-自定义对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/27-自定义对象2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode01/js/myjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode02/01-Window对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode02/02-History对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode02/03-Location对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode02/04-Document文档对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode02/05-获取标签对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode02/06-事件的第一种添加方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode02/07-事件的第二种添加方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode02/08-标签的样式设置.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode02/History跳转页面.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode03/01-动态添加标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode03/02-新闻字体.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode03/03-删除替换克隆标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode03/04-全选全不选反选.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode03/05-动态生成表格.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode03/06-表格的增删.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode03/07-表格隔行变色和高亮.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode03/08-左右移动.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode03/09-注册页面.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-JQuery/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-JQuery/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-JQuery/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-JQuery/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-JQuery/10-JQuery.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-JQuery/src/com/bjpowernode/jquery/01-Jquery介绍和环境搭建.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-JQuery/src/com/bjpowernode/jquery/02-JQuery基础语法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-JQuery/src/com/bjpowernode/jquery/03-选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-JQuery/src/com/bjpowernode/jquery/04-JQuery事件添加.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-JQuery/src/com/bjpowernode/jquery/05-属性操作.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-JQuery/src/com/bjpowernode/jquery/06-标签内容.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-JQuery/src/com/bjpowernode/jquery/07-标签样式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-JQuery/src/com/bjpowernode/jquery/08-样式的添加和删除.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-JQuery/src/com/bjpowernode/jquery/09-标签的显示和隐藏.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-JQuery/src/com/bjpowernode/jquery/10-标签的追加与添加.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-JQuery/src/com/bjpowernode/jquery/11-JS和JQuery对象相互转换.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-JQuery/src/com/bjpowernode/jquery/12-each遍历.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-JQuery/src/com/bjpowernode/jquery/13-全选全不选和反选.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-JQuery/src/com/bjpowernode/jquery/js/jquery-3.7.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/JavaScript.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/out/production/JavaScript/com/bjpowernode/01-HTML和JS的结合方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/out/production/JavaScript/com/bjpowernode/02-注释关键字和标识符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/out/production/JavaScript/com/bjpowernode/03-常量变量和数据类型.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/out/production/JavaScript/com/bjpowernode/04-算数运算符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/out/production/JavaScript/com/bjpowernode/05-赋值运算.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/out/production/JavaScript/com/bjpowernode/06-比较运算.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/out/production/JavaScript/com/bjpowernode/07-逻辑运算.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/out/production/JavaScript/com/bjpowernode/08-三元运算.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/out/production/JavaScript/com/bjpowernode/09-判断和分支语句.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/out/production/JavaScript/com/bjpowernode/10-循环语句.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/out/production/JavaScript/com/bjpowernode/Demo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/out/production/JavaScript/com/bjpowernode/js/myjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode/01-HTML和JS的结合方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode/02-注释关键字和标识符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode/03-常量变量和数据类型.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode/04-算数运算符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode/05-赋值运算.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode/06-比较运算.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode/07-逻辑运算.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode/08-三元运算.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode/09-判断和分支语句.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode/10-循环语句.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode/11-Let关键字.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode/12-乘法表.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode/js/myjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/01-HTML和JS的结合方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/02-注释关键字和标识符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/03-常量变量和数据类型.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/04-算数运算符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/05-赋值运算.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/06-比较运算.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/07-逻辑运算.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/08-三元运算.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/09-判断和分支语句.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/10-循环语句.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/11-Let关键字.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/12-乘法表.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/13-无参函数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/14-函数的参数问题.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/15-函数的第二种定义格式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/16-匿名函数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/17-消息框.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/18-数组的定义和使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/19-数组的第二种定义格式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/20-数组练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/21-Array对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/22-String对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/23-Date对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/24-Math对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/25-全局函数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/26-自定义对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/27-自定义对象2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode01/js/myjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode02/01-Window对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode02/02-History对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode02/03-Location对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode02/04-Document文档对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode02/05-获取标签对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode02/06-事件的第一种添加方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode02/07-事件的第二种添加方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode02/08-标签的样式设置.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/src/com/bjpowernode02/History跳转页面.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="e187514d-ef38-4b05-b45f-08c3e45051fd" name="Changes" comment="20230519">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/fastjson_1_2_73.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-JQuery/.idea/libraries/fastjson_1_2_73.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-JQuery/lib/fastjson-1.2.73.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-JQuery/out/production/10-JQuery/com/bjpowernode/jquery/01-Jquery介绍和环境搭建.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-JQuery/out/production/10-JQuery/com/bjpowernode/jquery/02-JQuery基础语法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-JQuery/out/production/10-JQuery/com/bjpowernode/jquery/03-选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-JQuery/out/production/10-JQuery/com/bjpowernode/jquery/04-JQuery事件添加.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-JQuery/out/production/10-JQuery/com/bjpowernode/jquery/05-属性操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-JQuery/out/production/10-JQuery/com/bjpowernode/jquery/06-标签内容.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-JQuery/out/production/10-JQuery/com/bjpowernode/jquery/07-标签样式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-JQuery/out/production/10-JQuery/com/bjpowernode/jquery/08-样式的添加和删除.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-JQuery/out/production/10-JQuery/com/bjpowernode/jquery/09-标签的显示和隐藏.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-JQuery/out/production/10-JQuery/com/bjpowernode/jquery/10-标签的追加与添加.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-JQuery/out/production/10-JQuery/com/bjpowernode/jquery/11-JS和JQuery对象相互转换.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-JQuery/out/production/10-JQuery/com/bjpowernode/jquery/12-each遍历.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-JQuery/out/production/10-JQuery/com/bjpowernode/jquery/13-全选全不选和反选.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-JQuery/out/production/10-JQuery/com/bjpowernode/jquery/14-节点添加与删除.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-JQuery/out/production/10-JQuery/com/bjpowernode/jquery/15-表单数据的获取.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-JQuery/out/production/10-JQuery/com/bjpowernode/jquery/js/jquery-3.7.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-JQuery/out/production/10-JQuery/com/bjpowernode/json/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-JQuery/out/production/10-JQuery/com/bjpowernode/json/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-JQuery/src/com/bjpowernode/jquery/14-节点添加与删除.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-JQuery/src/com/bjpowernode/jquery/15-表单数据的获取.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-JQuery/src/com/bjpowernode/json/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-JQuery/src/com/bjpowernode/json/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-网络编程/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-网络编程/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-网络编程/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-网络编程/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-网络编程/11-网络编程.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-网络编程/out/production/11-网络编程/com/bjpowernode/tcp/Demo01_InetAddress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-网络编程/out/production/11-网络编程/com/bjpowernode/tcp/Demo02_Socket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-网络编程/out/production/11-网络编程/com/bjpowernode/tcp/Demo03_ServerSocket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-网络编程/src/com/bjpowernode/tcp/Demo01_InetAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-网络编程/src/com/bjpowernode/tcp/Demo02_Socket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-网络编程/src/com/bjpowernode/tcp/Demo03_ServerSocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01-多线程/src/com/bjpowernode/lock/Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/01-多线程/src/com/bjpowernode/lock/Resource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01-多线程/src/com/bjpowernode/lock/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/01-多线程/src/com/bjpowernode/lock/Ticket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01-多线程/src/com/bjpowernode/thread/Demo05_ThreadFlowpath.java" beforeDir="false" afterPath="$PROJECT_DIR$/01-多线程/src/com/bjpowernode/thread/Demo05_ThreadFlowpath.java" afterDir="false" />
@@ -409,12 +53,22 @@
       <change beforePath="$PROJECT_DIR$/03-Stream流/src/com/bpowernode/stream/Demo06_Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-Stream流/src/com/bpowernode/stream/Demo06_Method.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03-Stream流/src/com/bpowernode/stream/Demo07_Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-Stream流/src/com/bpowernode/stream/Demo07_Method.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03-Stream流/src/com/bpowernode/stream/Demo08_Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-Stream流/src/com/bpowernode/stream/Demo08_Method.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-枚举、注解、反射/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/05-枚举、注解、反射/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-枚举、注解、反射/05-枚举、注解、反射.iml" beforeDir="false" afterPath="$PROJECT_DIR$/05-枚举、注解、反射/05-枚举、注解、反射.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/fanShe/Demo04_GetMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/fanShe/Demo04_GetMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/fanShe/Demo05_Annotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/05-枚举、注解、反射/out/production/05-枚举、注解、反射/com/bjpowernode/fanShe/Demo05_Annotation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-枚举、注解、反射/src/com/bjpowernode/fanShe/MyJunit.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-枚举、注解、反射/src/com/bjpowernode/fanShe/MyJunit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-枚举、注解、反射/src/com/bjpowernode/fanShe/Test_MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-枚举、注解、反射/src/com/bjpowernode/fanShe/Test_MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-Stream流/src/com/bpowernode/stream/Demo09_Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-Stream流/src/com/bpowernode/stream/Demo09_Method.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-Stream流/src/com/bpowernode/stream/Demo10_Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-Stream流/src/com/bpowernode/stream/Demo10_Method.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-Stream流/src/com/bpowernode/stream/Demo11_Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-Stream流/src/com/bpowernode/stream/Demo11_Method.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-Stream流/src/com/bpowernode/stream/Demo13_GetValueToCollecion.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-Stream流/src/com/bpowernode/stream/Demo13_GetValueToCollecion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-Stream流/src/com/bpowernode/stream/Demo14_GetValueToArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-Stream流/src/com/bpowernode/stream/Demo14_GetValueToArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-枚举、注解、反射/src/com/bjpowernode/enum_/Demo02_EnumScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-枚举、注解、反射/src/com/bjpowernode/enum_/Demo02_EnumScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-枚举、注解、反射/src/com/bjpowernode/fanShe/Demo01_GetClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-枚举、注解、反射/src/com/bjpowernode/fanShe/Demo01_GetClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-枚举、注解、反射/src/com/bjpowernode/fanShe/Demo02_Constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-枚举、注解、反射/src/com/bjpowernode/fanShe/Demo02_Constructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-枚举、注解、反射/src/com/bjpowernode/fanShe/Demo02_Filed.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-枚举、注解、反射/src/com/bjpowernode/fanShe/Demo02_Filed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-枚举、注解、反射/src/com/bjpowernode/fanShe/Demo04_GetMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-枚举、注解、反射/src/com/bjpowernode/fanShe/Demo04_GetMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc/Demo03_ResultSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc/Demo03_ResultSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc2/Demo07_StatementBatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc2/Demo07_StatementBatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc2/Demo08_PreparedBatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc2/Demo08_PreparedBatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode03/09-注册页面.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode03/09-注册页面.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-JQuery/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/10-JQuery/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-JQuery/10-JQuery.iml" beforeDir="false" afterPath="$PROJECT_DIR$/10-JQuery/10-JQuery.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaProject.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -450,31 +104,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/02-java进阶/JavaProject&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;d41d8cd98f00b204e9800998ecf8427e&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "E:/02-java进阶/JavaProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "spring.configuration.checksum": "d41d8cd98f00b204e9800998ecf8427e",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\02-java进阶\JavaProject" />
@@ -559,7 +214,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="74e596fb-e103-4bd0-b06e-550fd8f07f69" name="Default Changelist" comment="" />
+      <changelist id="e187514d-ef38-4b05-b45f-08c3e45051fd" name="Changes" comment="20230518" />
       <created>1682341896310</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -600,6 +255,9 @@
       <workItem from="1684289494212" duration="2533000" />
       <workItem from="1684328801645" duration="894000" />
       <workItem from="1684370148204" duration="5984000" />
+      <workItem from="1684415793839" duration="2138000" />
+      <workItem from="1684476944624" duration="64000" />
+      <workItem from="1684479261294" duration="447000" />
     </task>
     <task id="LOCAL-00001" summary="JavaSE2 day27">
       <created>1682664714511</created>
@@ -660,7 +318,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="JavaSE2 day27" />
     <MESSAGE value="20230518" />
-    <option name="LAST_COMMIT_MESSAGE" value="20230518" />
+    <MESSAGE value="20230519" />
+    <option name="LAST_COMMIT_MESSAGE" value="20230519" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

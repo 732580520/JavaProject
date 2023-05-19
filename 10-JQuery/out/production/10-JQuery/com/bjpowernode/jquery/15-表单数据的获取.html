@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>15-表单数据的获取</title>
+        <script src="js/jquery-3.7.0.js"></script>
+        <script>
+            $(function () {
+                // 给按钮添加点击事件
+                $("#doSubmit").click(function () {
+                    // 获取用户提交的信息
+                    var formValue = $("#frm").serialize();
+                    console.log(formValue);
+
+                    // JSON字符串
+                    var JsonFormValue = $("#frm").serializeArray();
+                    console.log(JsonFormValue);
+
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <h1>添加用户</h1>
+        <form action="http://www.baidu.com" method="get" id="frm">
+            编号： <input type="text" id="id" name="uid"> <br />
+            姓名： <input type="text" id="name" name="uname"> <br />
+            性别： <input type="text" id="sex" name="usex"> <br />
+            薪资： <input type="text" id="sal" name="usal"> <br />
+            <input type="button" value="提交" id="doSubmit">
+        </form>
+    </body>
+</html>

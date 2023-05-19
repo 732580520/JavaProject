@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>节点添加与删除</title>
+    <script type="text/javascript" src="js/jquery-3.7.0.js"></script>
+    <script>
+        // 文档加载事件
+        $(function () {
+            // 获取添加按钮对象
+            $("[type=button]").eq(0).click(function () {
+                // 获取表单中提交的数据
+                var id = $("#id").val();
+                var name = $("#name").val();
+                var sex = $("[name=sex]:checked").val();
+                var sal = $("#sal").val();
+                // alert(id + "..." + name + "...." + sex + "..." + sal);
+                // 将获取的数据添加到表格中
+                var tr = "<tr>\n" +
+                    "<td>" + id + "</td>\n" +
+                    "<td>" + name + "</td>\n" +
+                    "<td>" + sex + "</td>\n" +
+                    "<td>" + sal + "</td>\n" +
+                    "<td>" + "<button onclick='deleteRow()'>删除</button>" + "</td>\n" +
+                    "</tr>";
+
+                // 字符串拼接模板: `所有的内容都会被拼接成字符串`    如果拼接中需要使用变量，则${变量名}
+                var tr1 = `<tr>
+                <th>${id}</th>
+                <th>${name}</th>
+                <th>${sex}</th>
+                <th>${sal}</th>
+                <th><button onclick="deleteRow()">删除</button></th>
+            </tr>`;
+                // 获取表格对象
+                var $table = $("#tab1");
+                // 将tr添加到table中
+                $table.append(tr1);
+            });
+        });
+        function deleteRow() {
+            // event在所有事件中都会存在，用于记录事件状态
+            var flag = confirm("确定删除吗?");
+            if (flag) {
+                // 获取按钮对象
+                var button = event.target; // 是一个DOM对象
+                // button.parentNode.parentNode.remove();
+
+                // 将js对象 转换为jQuery对象
+                var $button = $(button);
+                $button.parent().parent().remove();
+            }
+        }
+    </script>
+</head>
+<body>
+    <center>
+        <form name="frm">
+            ID:<input id="id" type="number" value="1">
+            NAME:<input id="name" type="text" value="1">
+            SEX:
+                <input type="radio" name="sex" value="男">男
+                <input type="radio" name="sex" value="女">女
+
+            SAL:<input id="sal" type="text" value="1">
+
+            <input type="button" value="添加">
+            <input type="reset">
+        </form>
+        <hr>
+        <table id="tab1" align="center" border="1px" cellspacing="0"
+               style="width: 900px;text-align: center;
+           height: 100px;border: solid 1px green">
+            <caption><h3 align="center">用户列表</h3></caption>
+            <tr>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>SEX</th>
+                <th>SAL</th>
+                <th>操作</th>
+            </tr>
+        </table>
+    </center>
+
+</body>
+</html>

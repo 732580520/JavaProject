@@ -10,21 +10,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/jquery/12-each遍历.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/json/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="34" column="68" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="34" selection-end-column="68" />
+            <state relative-caret-position="546">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/jquery/13-全选全不选和反选.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/json/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="27" column="53" lean-forward="true" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+            <state relative-caret-position="1440">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1609#1610#0" expanded="true" />
+                <element signature="e#1670#1671#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,6 +43,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,6 +65,10 @@
         <option value="$PROJECT_DIR$/src/com/bjpowernode/jquery/11-JS和JQuery对象相互转换.html" />
         <option value="$PROJECT_DIR$/src/com/bjpowernode/jquery/12-each遍历.html" />
         <option value="$PROJECT_DIR$/src/com/bjpowernode/jquery/13-全选全不选和反选.html" />
+        <option value="$PROJECT_DIR$/src/com/bjpowernode/jquery/14-节点添加与删除.html" />
+        <option value="$PROJECT_DIR$/src/com/bjpowernode/jquery/15-表单数据的获取.html" />
+        <option value="$PROJECT_DIR$/src/com/bjpowernode/json/User.java" />
+        <option value="$PROJECT_DIR$/src/com/bjpowernode/json/Demo.java" />
       </list>
     </option>
   </component>
@@ -70,6 +83,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -86,13 +100,19 @@
               <item name="10-JQuery" type="b2602c69:ProjectViewProjectNode" />
               <item name="10-JQuery" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery" type="462c0819:PsiDirectoryNode" />
+              <item name="bjpowernode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="10-JQuery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10-JQuery" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bjpowernode" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -100,10 +120,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1684401111429" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1684462725963" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../13-网络编程-JSON" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\course\02-java进阶\JavaProject\10-JQuery\lib" />
+      <recent name="D:\course\02-java进阶\JavaProject\10-JQuery\src\com\bjpowernode\jquery" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -117,15 +144,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.13-全选全不选和反选.html">
-    <configuration name="09-标签的显示和隐藏.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:52069/10-JQuery/com/bjpowernode/jquery/09-标签的显示和隐藏.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="10-标签的追加与添加.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:52069/10-JQuery/com/bjpowernode/jquery/10-标签的追加与添加.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="11-JS和JQuery对象相互转换.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:52069/10-JQuery/com/bjpowernode/jquery/11-JS和JQuery对象相互转换.html" useBuiltInWebServerPort="true">
-      <method v="2" />
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bjpowernode.json.Demo" />
+      <module name="10-JQuery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bjpowernode.json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="12-each遍历.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:52069/10-JQuery/com/bjpowernode/jquery/12-each遍历.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -133,13 +164,19 @@
     <configuration name="13-全选全不选和反选.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:52069/10-JQuery/com/bjpowernode/jquery/13-全选全不选和反选.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="14-节点添加与删除.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63344/10-JQuery/com/bjpowernode/jquery/14-节点添加与删除.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="15-表单数据的获取.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63344/10-JQuery/com/bjpowernode/jquery/15-表单数据的获取.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="JavaScript Debug.15-表单数据的获取.html" />
+        <item itemvalue="JavaScript Debug.14-节点添加与删除.html" />
         <item itemvalue="JavaScript Debug.13-全选全不选和反选.html" />
         <item itemvalue="JavaScript Debug.12-each遍历.html" />
-        <item itemvalue="JavaScript Debug.11-JS和JQuery对象相互转换.html" />
-        <item itemvalue="JavaScript Debug.10-标签的追加与添加.html" />
-        <item itemvalue="JavaScript Debug.09-标签的显示和隐藏.html" />
       </list>
     </recent_temporary>
   </component>
@@ -154,11 +191,13 @@
       <option name="presentableId" value="Default" />
       <updated>1684390043813</updated>
       <workItem from="1684390045676" duration="9973000" />
+      <workItem from="1684456500909" duration="5023000" />
+      <workItem from="1684476232641" duration="457000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9973000" />
+    <option name="totallyTimeSpent" value="15453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -168,7 +207,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.18123667" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.18283582" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -177,11 +216,12 @@
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.45828697" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -198,20 +238,21 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.18123667" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.18283582" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Database Changes" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.6051168" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -237,13 +278,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/jquery/adf.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/jquery/adf.html" />
     <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/jquery/01-Jquery介绍和环境搭建.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -332,15 +367,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/jquery/12-each遍历.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="34" column="68" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="34" selection-end-column="68" />
+        <state relative-caret-position="1020">
+          <caret line="34" column="68" selection-start-line="23" selection-start-column="8" selection-end-line="34" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/jquery/13-全选全不选和反选.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="27" column="53" lean-forward="true" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+        <state relative-caret-position="960">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/jquery/14-节点添加与删除.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/jquery/15-表单数据的获取.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/fastjson-1.2.73.jar!/com/alibaba/fastjson/JSON.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5850">
+          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/json/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bjpowernode/json/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1609#1610#0" expanded="true" />
+            <element signature="e#1670#1671#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

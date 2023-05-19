@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>13-全选全不选和反选</title>
+        <script src="js/jquery-3.7.0.js"></script>
+        <script>
+            $(function () {
+                // 获取按钮对象
+                var $button = $("button");
+                // 添加全选事件
+                $button.eq(0).click(function () {
+                    // 获取复选按钮对象
+                    var $music = $("[name=music]");
+                    $music.attr("checked", true);
+                });
+                // 添加全不选事件
+                $button.eq(1).click(function () {
+                    // 获取复选按钮对象
+                    var $music = $("[name=music]");
+                    $music.prop("checked", false);
+                });
+                // 添加反选事件
+                $button.eq(2).click(function () {
+                    // 获取复选按钮对象
+                    var $music = $("[name=music]");
+                    // 遍历数组
+                    for(let i = 0; i < $music.length;i++ ) {
+                        var $input = $music.eq(i);
+                        // 获取标签当前checked的值
+                        var checked = $input.attr("checked");
+                        $input.prop("checked", !checked);
+                    }
+                });
+
+            });
+        </script>
+    </head>
+    <body>
+        <input type="checkbox" name="music" value="1111" />爱你一万年<br />
+        <input type="checkbox" name="music" value="2222" />忘情水<br />
+        <input type="checkbox" name="music" value="3333" />天意<br />
+        <input type="checkbox" name="music" value="4444" />冰雨<br />
+        <input type="checkbox" name="music" value="5555" />成都<br />
+        <input type="checkbox" name="music" value="6666" />武汉<br />
+        <input type="checkbox" name="music" value="7777" />北京北京<br />
+        <button>全选</button>
+        <button>全不选</button>
+        <button>反选</button>
+    </body>
+</html>
