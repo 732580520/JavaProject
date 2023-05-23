@@ -6,9 +6,9 @@ import java.sql.SQLException;
 
 /*
     JDBC事务控制，依赖的对象是 Connection
-	void setAutoCommit(boolean autoCommit) 将此连接的自动提交模式设置为给定状态。 false
-	void commit() 使上次提交/回滚之后所做的所有更改都将永久性，并释放此 Connection对象当前持有的任何数据库锁。
-	void rollback() 撤消在当前事务中所做的所有更改，并释放此 Connection对象当前持有的任何数据库锁。
+	void setAutoCommit​(boolean autoCommit) 将此连接的自动提交模式设置为给定状态。 false
+	void commit​() 使上次提交/回滚之后所做的所有更改都将永久性，并释放此 Connection对象当前持有的任何数据库锁。
+	void rollback​() 撤消在当前事务中所做的所有更改，并释放此 Connection对象当前持有的任何数据库锁。
 */
 public class Demo09_JdbcTransaction {
     public static void main(String[] args) {

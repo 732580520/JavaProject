@@ -8,8 +8,8 @@ import java.sql.Savepoint;
 
 /*
     事务回滚点: 事务回滚的位置[标记]。
-        Savepoint setSavepoint() 在当前事务中创建一个未命名的保存点，并返回表示它的新的Savepoint对象。
-        Savepoint setSavepoint(String name) 在当前事务中创建具有给定名称的保存点，并返回表示它的新的 Savepoint对象。
+        Savepoint setSavepoint​() 在当前事务中创建一个未命名的保存点，并返回表示它的新的Savepoint对象。
+        Savepoint setSavepoint​(String name) 在当前事务中创建具有给定名称的保存点，并返回表示它的新的 Savepoint对象。
     java.sql.Interface.Savepoint:一个保存点的表示，这是当前事务中可以从Connection.rollback方法引用的一个点。
         当事务回滚到保存点时，保存点之后所做的所有更改都将被撤销。
  */

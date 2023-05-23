@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://F:/ruanjian/apache-tomcat-9.0.30/lib/servlet-api.jar!/" />
+      <root url="jar://F:/ruanjian/apache-tomcat-9.0.30/lib/jsp-api.jar!/" />
+      <root url="file://F:/ruanjian/apache-tomcat-9.0.30/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://F:/ruanjian/apache-tomcat-9.0.30/lib" recursive="false" />
+  </library>
+</component>

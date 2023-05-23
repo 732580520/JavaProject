@@ -4,7 +4,70 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a87e20f-6b9b-4d9c-b114-1c640c1721fd" name="Changes" comment="20230519 21:41" />
+    <list default="true" id="5a87e20f-6b9b-4d9c-b114-1c640c1721fd" name="Changes" comment="20230519 21:43">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-Tomcat&amp;Servlet/12-Tomcat&amp;Servlet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-MVCProject/13-MVCProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-JSP/14-JSP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/.idea/artifacts/SYH_14_JSP_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/.idea/libraries/jsp_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/.idea/libraries/mysql_connector_java_8_0_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/SYH-14-JSP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/src/bean/ATM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/src/dao/ATMDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/src/servlet/Demo1_Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/src/servlet/Demo2_Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/src/util/DBUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/web/01-JSP概述.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/web/02-JSP核心语法.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/web/03-jsp中java代码的连贯性.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/web/04-page指令.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/web/05-include指令.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/web/06-jsp9大内置对象.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/web/07-域对象.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/web/08-域对象.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/web/getMoney.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/web/getMoneyDo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/web/loginDo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/web/queryMoneyDo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/web/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/web/registerDo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/web/setMoney.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/web/setMoneyDo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/web/transfer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/web/transferDao.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/web/updatepwd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYH-14-JSP/web/updatepwdDao.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc/Demo05_JdbcURUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc/Demo05_JdbcURUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc2/Demo09_JdbcTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc2/Demo09_JdbcTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc2/Demo10_Savepoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/06-JDBC/src/com/bjpowernode/jdbc2/Demo10_Savepoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode03/09-注册页面.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-JavaScript/src/com/bjpowernode03/09-注册页面.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-JQuery/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/10-JQuery/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-JQuery/10-JQuery.iml" beforeDir="false" afterPath="$PROJECT_DIR$/10-JQuery/10-JQuery.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-JQuery/src/com/bjpowernode/jquery/13-全选全不选和反选.html" beforeDir="false" afterPath="$PROJECT_DIR$/10-JQuery/src/com/bjpowernode/jquery/13-全选全不选和反选.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-JQuery/src/com/bjpowernode/json/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/10-JQuery/src/com/bjpowernode/json/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-网络编程/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/11-网络编程/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-网络编程/images/192.168.137.101.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/11-网络编程/images/192.168.137.101.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-网络编程/src/com/bjpowernode/tcp/Demo01_InetAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/11-网络编程/src/com/bjpowernode/tcp/Demo01_InetAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-网络编程/src/com/bjpowernode/tcp/Demo02_Socket.java" beforeDir="false" afterPath="$PROJECT_DIR$/11-网络编程/src/com/bjpowernode/tcp/Demo02_Socket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-网络编程/src/com/bjpowernode/tcp/Demo03_ServerSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/11-网络编程/src/com/bjpowernode/tcp/Demo03_ServerSocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-网络编程/src/com/bjpowernode/tcp/Demo04_UpSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/11-网络编程/src/com/bjpowernode/tcp/Demo04_UpSocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-网络编程/src/com/bjpowernode/tcp/Demo05_UpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/11-网络编程/src/com/bjpowernode/tcp/Demo05_UpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaProject.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,32 +81,68 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/14-JSP/src/com/bjpowernode/util/JDBCUtils.java" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Q2KIiL0EncdLqIYrWOrEZDY6mh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/02-java进阶/JavaProject/11-网络编程/src/com/bjpowernode/tcp",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "E:/02-java进阶/07-JDBC/JDBC基础/资料/mysql8.0.22/mysql-connector-java-8.0.22/mysql-connector-java-8.0.22.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.general",
+    "spring.configuration.checksum": "d41d8cd98f00b204e9800998ecf8427e",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\02-java进阶\JavaProject\SYH-14-JSP\web" />
+      <recent name="E:\02-java进阶\JavaProject\SYH-14-JSP\src" />
+      <recent name="E:\02-java进阶\JavaProject" />
       <recent name="E:\02-java进阶\JavaProject\11-网络编程\src\com\bjpowernode\tcp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\02-java进阶\JavaProject\11-网络编程" />
+      <recent name="E:\02-java进阶\JavaProject" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.bjpowernode.tcp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HomeWork1_UpSocket">
-    <configuration name="Demo04_UpSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bjpowernode.tcp.Demo04_UpSocket" />
+  <component name="RunManager" selected="JavaScript Debug.registerFail.html">
+    <configuration name="Demo07_BsServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bjpowernode.tcp.Demo07_BsServer" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
@@ -81,19 +180,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWork_UpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bjpowernode.tcp.HomeWork_UpServer" />
-      <module name="JavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bjpowernode.tcp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HomeWork_UpSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bjpowernode.tcp.HomeWork_UpSocket" />
       <module name="JavaProject" />
@@ -107,16 +193,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="registerFail.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaProject/13-MVCProject/web/registerFail.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Demo07_BsServer" />
+      <item itemvalue="Application.HomeWork1_UpServer" />
+      <item itemvalue="Application.HomeWork1_UpSocket" />
+      <item itemvalue="Application.HomeWork_UpSocket" />
+      <item itemvalue="JavaScript Debug.registerFail.html" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.registerFail.html" />
+        <item itemvalue="Application.Demo07_BsServer" />
         <item itemvalue="Application.HomeWork1_UpSocket" />
         <item itemvalue="Application.HomeWork1_UpServer" />
         <item itemvalue="Application.HomeWork_UpSocket" />
-        <item itemvalue="Application.HomeWork_UpServer" />
-        <item itemvalue="Application.Demo04_UpSocket" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="20230519 21:41">
       <created>1684503854801</created>
@@ -125,8 +222,30 @@
       <option name="project" value="LOCAL" />
       <updated>1684503854801</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="20230519 21:43">
+      <created>1684503977459</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684503977459</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a87e20f-6b9b-4d9c-b114-1c640c1721fd" name="Changes" comment="20230519 21:43" />
+      <created>1684546164919</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684546164919</updated>
+      <workItem from="1684546170958" duration="298000" />
+      <workItem from="1684569839836" duration="5906000" />
+      <workItem from="1684591082013" duration="549000" />
+      <workItem from="1684719036950" duration="18719000" />
+      <workItem from="1684803392637" duration="1678000" />
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -141,6 +260,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="20230519 21:41" />
-    <option name="LAST_COMMIT_MESSAGE" value="20230519 21:41" />
+    <MESSAGE value="20230519 21:43" />
+    <option name="LAST_COMMIT_MESSAGE" value="20230519 21:43" />
   </component>
 </project>

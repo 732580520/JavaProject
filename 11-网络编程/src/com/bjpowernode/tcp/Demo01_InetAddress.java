@@ -6,9 +6,9 @@ import java.net.UnknownHostException;
 /*
     java.net.InetAddress:此类表示Internet协议（IP）地址。
     成员方法
-        static InetAddress getByName(String host) 确定主机名称的IP地址。
+        static InetAddress getByName​(String host) 确定主机名称的IP地址。
             String host：IP   主机名   域名
-        static InetAddress[] getAllByName(String host) 给定主机的名称，根据系统上配置的名称服务返回其IP地址数组。
+        static InetAddress[] getAllByName​(String host) 给定主机的名称，根据系统上配置的名称服务返回其IP地址数组。
  */
 public class Demo01_InetAddress {
     public static void main(String[] args) throws Exception {

@@ -16,6 +16,11 @@
       <sourceFolder url="file://$MODULE_DIR$/10-JQuery/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/11-网络编程/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/JavaScript/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/12-Tomcat&amp;Servlet/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/13-MVCProject/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/14-JSP/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SYH-14-JSP/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/15-el表达式/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -29,7 +34,6 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="mysql-connector-java-8.0.22" level="project" />
     <orderEntry type="library" name="spring-beans-5.0.0.RELEASE" level="project" />
     <orderEntry type="module-library">
       <library name="JUnit4">
@@ -43,5 +47,8 @@
     </orderEntry>
     <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
     <orderEntry type="library" name="fastjson-1.2.73" level="project" />
+    <orderEntry type="library" name="Java EE 6" level="project" />
+    <orderEntry type="library" name="servlet-api" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-8.0.22" level="project" />
   </component>
 </module>

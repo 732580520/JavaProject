@@ -5,9 +5,9 @@ import java.util.Random;
 
 public class Demo05_JdbcURUD {
     public static void main(String[] args) {
-        insert();
-        //  update();
-        //delete();
+        //insert();
+        //update();
+        delete();
     }
     // 添加数据
     public static void insert() {

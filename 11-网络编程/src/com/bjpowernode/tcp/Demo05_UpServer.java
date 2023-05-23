@@ -26,10 +26,11 @@ public class Demo05_UpServer {
                     //String fileName = UUID.randomUUID().toString();
                     String fileName = socket.getInetAddress().getHostAddress();
                     // 创建File对象
-                    File file = new File( fileName + ".txt");
-                    int name=1;
-                    while (file.exists()){
-                        file = new File(fileName + "(" + name + ").txt");
+                    File file = new File("images\\" + fileName + ".jpg");
+                    int name = 1;
+                    // 判断文件是否存在
+                    while (file.exists()) {
+                        file = new File("images\\" + fileName + "(" + name + ").jpg");
                         name++;
                     }
                     FileOutputStream fos = new FileOutputStream(file);

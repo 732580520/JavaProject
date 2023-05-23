@@ -26,27 +26,9 @@
                     return false;
                 }
             }
-<<<<<<< HEAD
-            function checksex(){
-                // 获取所有的name=“sex”的复选框
-                var sex = document.getElementsByName("sex");
-                // 判断是否至少选择了一种name=“sex”的复选框
-                for (let i = 0; i < 2; i++) {
-                    if (sex[i].checked) {
-                        document.getElementById("sexpan").innerHTML = "格式正确".fontsize(2).fontcolor("green");
-                        return true;
-                    }
-                }
-                    return false;
-            }
-            // true:提交给后台服务器  false：不允许提交
-            function _validata() {
-                if(checkuser() && checkpwd()&&checksex()) {
-=======
             // true:提交给后台服务器  false：不允许提交
             function _validata() {
                 if(checkuser() && checkpwd()) {
->>>>>>> origin/master
                     return true;
                 }else {
                     return false;

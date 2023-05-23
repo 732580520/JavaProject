@@ -9,11 +9,11 @@ import java.util.Scanner;
 /*
     java.net.Socket:该类实现客户端套接字（也称为“套接字”）。 套接字是两台机器之间通讯的端点。
     构造方法
-        Socket(String host, int port) 创建流套接字并将其连接到指定主机上的指定端口号。
-        Socket(InetAddress address, int port) 创建流套接字并将其连接到指定IP地址的指定端口号。
+        Socket​(String host, int port) 创建流套接字并将其连接到指定主机上的指定端口号。
+        Socket​(InetAddress address, int port) 创建流套接字并将其连接到指定IP地址的指定端口号。
     成员方法
-        InputStream getInputStream() 返回此套接字的输入流。
-        OutputStream getOutputStream() 返回此套接字的输出流。
+        InputStream getInputStream​() 返回此套接字的输入流。
+        OutputStream getOutputStream​() 返回此套接字的输出流。
  */
 public class Demo02_Socket {
     public static void main(String[] args) throws IOException {

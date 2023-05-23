@@ -7,9 +7,9 @@ import java.net.Socket;
 public class Demo04_UpSocket {
     public static void main(String[] args) throws IOException {
         // 创建客户端对象
-        Socket socket = new Socket("192.168.137.109",9999);
+        Socket socket = new Socket("192.168.137.1",9999);
         // 创建字节输入流，读取需要上传的文件
-        FileInputStream fis = new FileInputStream("E:\\02-java进阶\\13-网络编程-JSON\\作业\\我是UTF-8格式.txt");
+        FileInputStream fis = new FileInputStream("images\\1.jpg");
         // 获取字节输出流，将文件写给服务端
         OutputStream out = socket.getOutputStream();
         // 数据读写

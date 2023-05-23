@@ -12,9 +12,9 @@ import java.util.Scanner;
     java.net.ServerSocket:这个类实现了服务器套接字。
 	    服务器套接字等待通过网络进入的请求。它根据该请求执行一些操作，然后可能将结果返回给请求者。
     构造方法
-        ServerSocket(int port) 创建绑定到指定端口的服务器套接字。
+        ServerSocket​(int port) 创建绑定到指定端口的服务器套接字。
     成员方法
-        Socket accept() 侦听要连接到此套接字并接受它。'获取客户端对象。
+        Socket accept​() 侦听要连接到此套接字并接受它。'获取客户端对象。
  */
 public class Demo03_ServerSocket {
     public static void main(String[] args) throws IOException {
